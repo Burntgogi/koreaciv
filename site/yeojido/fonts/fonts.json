@@ -1,0 +1,93 @@
+{
+ "built": "2026-11-27",
+ "fonts": [
+  {
+   "role": "제목 · 고을 이름 · 큰 숫자",
+   "css_family": "Hahmlet",
+   "family_shown": "Hahmlet (함렛)",
+   "author": "The Hahmlet Project Authors — 함민주(한글), Mark Frömberg(라틴) / Hypertype",
+   "licence": "SIL Open Font License 1.1",
+   "reserved_font_name": null,
+   "licence_file": "Hahmlet-OFL.txt",
+   "source_url": "https://github.com/google/fonts/tree/main/ofl/hahmlet",
+   "source_ref": "google/fonts c1eda92 (2026-03-03), Version 1.002",
+   "fetched": "2026-11-27",
+   "file": "Hahmlet-VF.subset.woff2",
+   "bytes": 551820,
+   "note": "가변 글꼴(굵기 100–900)을 쓰는 글자만 남겨 줄였다. 예약 글꼴 이름이 없어 이름을 그대로 둔다."
+  },
+  {
+   "role": "본문 · 표 · 단추",
+   "css_family": "Yeojido Sans",
+   "family_shown": "Pretendard Variable 1.309 의 수정본 (내부 이름 Yeojido Sans)",
+   "author": "길형진 (Kil Hyung-jin). 바탕: Inter (The Inter Project Authors), Source Han Sans (Adobe), M PLUS 1 (The M+ FONTS Project Authors)",
+   "licence": "SIL Open Font License 1.1",
+   "reserved_font_name": "Pretendard, Source, Inter, M PLUS 1",
+   "licence_file": "YeojidoSans-Pretendard-OFL.txt",
+   "source_url": "https://github.com/orioncactus/pretendard",
+   "source_ref": "orioncactus/pretendard 7aeb069 (2025-06-28), packages/pretendard/dist/public/variable/PretendardVariable.ttf, Version 1.309",
+   "fetched": "2026-11-27",
+   "file": "YeojidoSans-VF.subset.woff2",
+   "bytes": 454076,
+   "note": "글자를 줄인 파일은 OFL 의 수정본이고 원본에 예약 글꼴 이름이 있어, 글꼴 안의 이름을 Yeojido Sans 로 바꿨다 (OFL 제3조). 저작권·이용허락 표시는 그대로 두었다."
+  },
+  {
+   "role": "자료 속 한자 (문화유산 이름 등)",
+   "css_family": "Yeojido Hanja",
+   "family_shown": "Noto Serif KR",
+   "author": "Adobe · Google (Source Han Serif 의 Noto 판)",
+   "licence": "SIL Open Font License 1.1",
+   "reserved_font_name": null,
+   "licence_file": "NotoSerifKR-OFL.txt",
+   "source_url": "https://github.com/google/fonts/tree/main/ofl/notoserifkr",
+   "source_ref": "google/fonts main (2026-11-27 받음), NotoSerifKR[wght].ttf, Version 2.003",
+   "fetched": "2026-11-27",
+   "file": "NotoSerifKR-VF.hanja.woff2",
+   "bytes": 35604,
+   "note": "자료와 화면에 나오는 한자만 남겼다. CSS 에서는 unicode-range 로 한자에만 쓰인다 (@font-face 이름 Yeojido Hanja 는 CSS 별칭이고 글꼴 안 이름은 그대로다)."
+  },
+  {
+   "role": "제호 곁글 한자 新輿地圖",
+   "css_family": null,
+   "family_shown": "Yuji Syuku Regular",
+   "author": "The Yuji Project Authors — 글씨 片岡佑之(Kataoka Yuji), Kinuta Font Factory",
+   "licence": "SIL Open Font License 1.1",
+   "reserved_font_name": null,
+   "licence_file": "YujiSyuku-OFL.txt",
+   "source_url": "https://github.com/google/fonts/tree/main/ofl/yujisyuku",
+   "source_ref": "google/fonts main (2026-11-27 받음), YujiSyuku-Regular.ttf",
+   "fetched": "2026-11-27",
+   "file": "title-hanja.svg",
+   "bytes": 17260,
+   "note": "붓글씨 해서 글꼴에서 네 글자의 윤곽만 뽑았다 (title-hanja.woff2 는 같은 네 글자의 기록용 서브셋). 특정 서예가의 글씨를 본뜬 것이 아니다."
+  },
+  {
+   "role": "낙관 (한글 「신여지도」)",
+   "css_family": null,
+   "family_shown": "Hahmlet 900 윤곽 + 계산한 인변",
+   "author": "The Hahmlet Project Authors (글자 윤곽)",
+   "licence": "SIL Open Font License 1.1",
+   "reserved_font_name": null,
+   "licence_file": "Hahmlet-OFL.txt",
+   "source_url": "https://github.com/google/fonts/tree/main/ofl/hahmlet",
+   "source_ref": "위와 같음",
+   "fetched": "2026-11-27",
+   "file": "seal.svg",
+   "bytes": 6025,
+   "note": "한자 전서 낙관은 쓰지 않았다: 열린 이용허락의 소전 글꼴에서 네 글자를 모두 확인하지 못했다 (README 참고)."
+  }
+ ],
+ "missing": {
+  "Hahmlet": {
+   "기호": "‥※℃ⅠⅡⅢⅣⅤ↳⇧∼⋮⌘⏎⏱⏳␣①②③④⑤⑥⑦⑧⑨⑩▴▸▾◂◎●◦◯、。「」『』㎏㎜㎝㎞㎡㎢㎥㏊！％（），．／：；？［］｛｝～･",
+   "그림문자": "★☆⚖⚙⛩✓✕❤️🌊🌏🌧🌲🌾🎂🎓🎖🎭🏆🏙🏛🏠🏡🏭🏯👥👶👷💪💰💵📈📚🔑🔬😷🙏🚚🚢🚬🤝🥬🧍🧒🧓🩺",
+   "한자": "之仁佑健元光切卑圖土地塊孝宣寧屑屬岡崇康弘徽思恭惠懿採敬新昌明景水永油泰洪溫瀝灰片版物獻生睿石禧稀穆章糖組綏編翼肉花英莊莖裕貞輿金鑛長陵隆靑靖順類顯陵鱗"
+  },
+  "Yeojido Sans": {
+   "기호": "∙∼⋮⏱⏳▴▸▾◂◎･",
+   "그림문자": "⚖⚙⛩✕❤️🌊🌏🌧🌲🌾🎂🎓🎖🎭🏆🏙🏛🏠🏡🏭🏯👥👶👷💪💰💵📈📚🔑🔬😷🙏🚚🚢🚬🤝🥬🧍🧒🧓🩺",
+   "한자": "之仁佑健元光切卑圖土地塊孝宣寧屑屬岡崇康弘徽思恭惠懿採敬新昌明景水永油泰洪溫瀝灰片版物獻生睿石禧稀穆章糖組綏編翼肉花英莊莖裕貞輿金鑛長陵隆靑靖順類顯陵鱗"
+  }
+ },
+ "missing_used_in_both": "∼⋮⏱⏳▴▸▾◂◎⚖⚙⛩✕❤之仁佑健元光切卑圖土地塊孝宣寧屑屬岡崇康弘徽思恭惠懿採敬新昌明景水永油泰洪溫瀝灰片版物獻生睿石禧稀穆章糖組綏編翼肉花英莊莖裕貞輿金鑛長陵隆靑靖順類顯陵鱗️･🌊🌏🌧🌲🌾🎂🎓🎖🎭🏆🏙🏛🏠🏡🏭🏯👥👶👷💪💰💵📈📚🔑🔬😷🙏🚚🚢🚬🤝🥬🧍🧒🧓🩺"
+}

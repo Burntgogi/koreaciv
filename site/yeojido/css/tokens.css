@@ -1,0 +1,25 @@
+/* 신여지도 — 디자인 토큰. 종이·먹·안료, 글자 단계, 8 px 격자, 움직임. 글꼴은 fonts.css */
+:root {
+  --paper: #efe6d2; --paper-hi: #f8f3e6; --paper-lo: #e3d8be;
+  --baek: #fbf6e8;
+  --ink: #1d1a16; --ink-2: #5b5347; --ink-3: #685f50;
+  --hair: rgba(29, 26, 22, 0.24); --hair-2: rgba(29, 26, 22, 0.12);
+  --ju: #b8321f; --ju-deep: #8e2a1b;
+  --jjok: #26465f;
+  --nok: #3f6b52; --nok-text: #335d45;
+  --hwang: #c48f2f; --hwang-text: #78520e;
+
+  --t-2: 11px; --t-1: 12px; --t0: 14px; --t1: 16px; --t2: 20px; --t3: 25px; --t4: 31px; --t5: 39px; --t6: 61px; --t7: 95px;
+
+  --u: 8px;
+  --m-top: 80px; --m-right: 88px; --m-bot: 56px; --m-left: 88px;
+  --panel-w: 560px;
+
+  --ease: cubic-bezier(0.2, 0.7, 0.1, 1);
+  --d1: 160ms; --d2: 320ms; --d3: 780ms;
+  --block: 3px 3px 0 var(--ink);
+}
+@media (max-width: 1439px) { :root { --m-top: 72px; --m-right: 72px; --m-left: 72px; --panel-w: 480px; } }
+@media (max-width: 1023px) { :root { --m-top: 64px; --m-right: 56px; --m-left: 56px; --m-bot: 52px; --panel-w: 400px; } }
+@media (max-width: 700px) { :root { --m-top: 52px; --m-right: 6px; --m-left: 6px; --m-bot: 58px; } }
+@media (prefers-reduced-motion: reduce) { :root { --d1: 0ms; --d2: 0ms; --d3: 0ms; } }

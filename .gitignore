@@ -1,0 +1,40 @@
+# 원자료와 중간 산출물은 저장소에 올리지 않는다 (용량, 출처별 이용조건).
+# 수집기(pipeline/collect_*.py)로 다시 받을 수 있다.
+/data/raw/
+/data/build/
+
+# 시안과 작업용 파일
+/design2/
+/docs/screenshots/
+/tools/yeojido/fonts_src/
+/tools/audit/
+
+# 환경·비밀
+.env
+.env.*
+*.pem
+*.key
+.claude/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# 작업 산출물·사본
+*.bak
+*.tmp
+*.log
+*.swp
+*~
+.idea/
+.vscode/
+/tools/yeojido/qa_result.txt
+/tools/**/qa_result*.txt
+test-results/
+playwright-report/
+downloads/
+*_backup/
+*.orig
+
+# 공개 전 점검용 개인 이름 목록 (로컬 전용)
+/tools/publish_check/private_terms.txt

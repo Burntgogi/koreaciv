@@ -1,0 +1,1555 @@
+{
+  "problem1": {
+    "aip_cell": 7080,
+    "candidates": [
+      {
+        "source": "incheon-aip (기준: 전체판 AIP ARP)",
+        "lon": 126.4391667,
+        "lat": 37.4625,
+        "dist_geod_m": 0.0,
+        "dist_5179_m": 0.0,
+        "cell": 7080,
+        "same_cell_as_aip": true,
+        "dist_to_cell_center_u": 16.77,
+        "sgg_code": "28155",
+        "sgg_name": "영종구",
+        "address": "47, Gonghang-ro 424beon-gil, Yeongjong-gu, Incheon",
+        "license": "사전 허락·협의 필요 (공개판 제외)"
+      },
+      {
+        "source": "wikidata-q20932 (Wikidata P625/P6375)",
+        "lon": 126.4391667,
+        "lat": 37.4625,
+        "dist_geod_m": 0.0,
+        "dist_5179_m": 0.0,
+        "cell": 7080,
+        "same_cell_as_aip": true,
+        "dist_to_cell_center_u": 16.77,
+        "sgg_code": "28155",
+        "sgg_name": "영종구",
+        "address": "22382 인천시 중구 공항로 424번길 47",
+        "license": "CC0 1.0 (퍼블릭 도메인)"
+      },
+      {
+        "source": "osm-rksi-pos (OSM WAY 316419197 대표점)",
+        "lon": 126.4417093,
+        "lat": 37.4634593,
+        "dist_geod_m": 248.9,
+        "dist_5179_m": 248.8,
+        "cell": 7080,
+        "same_cell_as_aip": true,
+        "dist_to_cell_center_u": 18.17,
+        "sgg_code": "28155",
+        "sgg_name": "영종구",
+        "address": "인천광역시 중구 운서동 공항로 272 (22382)",
+        "license": "ODbL 1.0"
+      },
+      {
+        "source": "osm-rksi-centroid (OSM WAY 316419197 무게중심)",
+        "lon": 126.4406244,
+        "lat": 37.4645544,
+        "dist_geod_m": 262.0,
+        "dist_5179_m": 261.9,
+        "cell": 7080,
+        "same_cell_as_aip": true,
+        "dist_to_cell_center_u": 19.0,
+        "sgg_code": "28155",
+        "sgg_name": "영종구",
+        "address": "인천광역시 중구 운서동 공항로 272 (22382)",
+        "license": "ODbL 1.0"
+      },
+      {
+        "source": "data-15150509-max (환경부 세분류 공항 최대도엽 37610018 중심)",
+        "lon": 126.4625,
+        "lat": 37.4625,
+        "dist_geod_m": 2064.3,
+        "dist_5179_m": 2063.7,
+        "cell": 6927,
+        "same_cell_as_aip": false,
+        "dist_to_cell_center_u": 21.26,
+        "sgg_code": "28155",
+        "sgg_name": "영종구",
+        "address": "도엽 37610018 (공항 34.48 ha)",
+        "license": "공공누리 제1유형"
+      },
+      {
+        "source": "data-15041331-mid (국가철도공단 공항철도 T1·T2역 중점)",
+        "lon": 126.4428791,
+        "lat": 37.4581334,
+        "dist_geod_m": 585.5,
+        "dist_5179_m": 585.3,
+        "cell": 7080,
+        "same_cell_as_aip": true,
+        "dist_to_cell_center_u": 13.58,
+        "sgg_code": "28155",
+        "sgg_name": "영종구",
+        "address": "인천광역시 중구 공항로 271 (운서동) 인천공항1터미널역 / 인천광역시 중구 공항로 272 인천국제공항2터미널역",
+        "license": "이용허락범위 제한 없음"
+      },
+      {
+        "source": "data-15041331-t2 (국가철도공단 공항철도 인천공항2터미널역)",
+        "lon": 126.433415,
+        "lat": 37.46866,
+        "dist_geod_m": 852.2,
+        "dist_5179_m": 852.0,
+        "cell": 7080,
+        "same_cell_as_aip": true,
+        "dist_to_cell_center_u": 22.63,
+        "sgg_code": "28155",
+        "sgg_name": "영종구",
+        "address": "인천광역시 중구 공항로 272 인천국제공항2터미널역",
+        "license": "이용허락범위 제한 없음"
+      },
+      {
+        "source": "data-15150509-weighted (환경부 세분류 공항 9개 도엽 가중중심)",
+        "lon": 126.4509097,
+        "lat": 37.4622819,
+        "dist_geod_m": 1039.2,
+        "dist_5179_m": 1038.9,
+        "cell": 7080,
+        "same_cell_as_aip": true,
+        "dist_to_cell_center_u": 20.45,
+        "sgg_code": "28155",
+        "sgg_name": "영종구",
+        "address": "도엽 37610007~029 (공항 114.86 ha)",
+        "license": "공공누리 제1유형"
+      },
+      {
+        "source": "geonames-12689633 (GeoNames 인천국제공항)",
+        "lon": 126.44935,
+        "lat": 37.46914,
+        "dist_geod_m": 1163.9,
+        "dist_5179_m": 1163.6,
+        "cell": 6927,
+        "same_cell_as_aip": false,
+        "dist_to_cell_center_u": 17.8,
+        "sgg_code": "28155",
+        "sgg_name": "영종구",
+        "address": "KR.txt 12689633 AIRP",
+        "license": "CC BY 4.0"
+      },
+      {
+        "source": "admdong-unseo1 (행정동 경계 운서1동 대표점)",
+        "lon": 126.443877,
+        "lat": 37.4650404,
+        "dist_geod_m": 503.1,
+        "dist_5179_m": 503.0,
+        "cell": 7080,
+        "same_cell_as_aip": true,
+        "dist_to_cell_center_u": 20.19,
+        "sgg_code": "28155",
+        "sgg_name": "영종구",
+        "address": "인천광역시 영종구 운서1동 (2815554000)",
+        "license": "CC BY 4.0 (SGIS 제1유형)"
+      },
+      {
+        "source": "ourairports-rksi (OurAirports RKSI)",
+        "lon": 126.450996,
+        "lat": 37.469101,
+        "dist_geod_m": 1277.4,
+        "dist_5179_m": 1277.1,
+        "cell": 6927,
+        "same_cell_as_aip": false,
+        "dist_to_cell_center_u": 17.13,
+        "sgg_code": "28155",
+        "sgg_name": "영종구",
+        "address": "Incheon International Airport (KR-28)",
+        "license": "Public Domain"
+      },
+      {
+        "source": "ne-10m-airports (Natural Earth ICN)",
+        "lon": 126.450876,
+        "lat": 37.4492089,
+        "dist_geod_m": 1802.6,
+        "dist_5179_m": 1802.1,
+        "cell": 7080,
+        "same_cell_as_aip": true,
+        "dist_to_cell_center_u": 12.81,
+        "sgg_code": "28155",
+        "sgg_name": "영종구",
+        "address": "Incheon Int'l (terminal)",
+        "license": "Public Domain"
+      },
+      {
+        "source": "geonames-6300433 (GeoNames Incheon Intl Airport)",
+        "lon": 126.45095,
+        "lat": 37.4492,
+        "dist_geod_m": 1807.2,
+        "dist_5179_m": 1806.6,
+        "cell": 7080,
+        "same_cell_as_aip": true,
+        "dist_to_cell_center_u": 12.86,
+        "sgg_code": "28155",
+        "sgg_name": "영종구",
+        "address": "KR.txt 6300433 AIRP",
+        "license": "CC BY 4.0"
+      },
+      {
+        "source": "data-15041331-t1 (국가철도공단 공항철도 인천공항1터미널역)",
+        "lon": 126.4523433,
+        "lat": 37.4476067,
+        "dist_geod_m": 2022.7,
+        "dist_5179_m": 2022.1,
+        "cell": 7080,
+        "same_cell_as_aip": true,
+        "dist_to_cell_center_u": 13.64,
+        "sgg_code": "28155",
+        "sgg_name": "영종구",
+        "address": "인천광역시 중구 공항로 271 (운서동) 인천공항1터미널역",
+        "license": "이용허락범위 제한 없음"
+      },
+      {
+        "source": "data-15041332-t1 (국가철도공단 자기부상 인천공항1터미널역)",
+        "lon": 126.4525,
+        "lat": 37.447222,
+        "dist_geod_m": 2065.7,
+        "dist_5179_m": 2065.1,
+        "cell": 7080,
+        "same_cell_as_aip": true,
+        "dist_to_cell_center_u": 13.72,
+        "sgg_code": "28155",
+        "sgg_name": "영종구",
+        "address": "인천국제공항공사 자기부상 인천공항1터미널",
+        "license": "이용허락범위 제한 없음"
+      }
+    ],
+    "traffic_verify": {
+      "airportal_2025_passengers": 73752582,
+      "airportal_2025_cargo_t": 4032060,
+      "kac_15002610_2025_passengers": 74071475,
+      "exact_match": false
+    }
+  },
+  "problem2": {
+    "전국_비교시군구_231곳": {
+      "n_cells": 4538,
+      "stats_land_ha": 9111923.8,
+      "official_stats_pct": {
+        "forest": 56.74,
+        "broadleaf": 27.19,
+        "conifer": 22.56,
+        "mixed": 6.99,
+        "crop": 17.5,
+        "paddy": 7.6,
+        "field": 7.29,
+        "orchard": 1.54,
+        "greenhouse": 0.83,
+        "built": 7.88,
+        "grass": 11.06,
+        "wetland": 1.26,
+        "bare": 3.3,
+        "water": 2.27
+      },
+      "methods": {
+        "현재_공개판_ESA250m": {
+          "pct": {
+            "forest": 71.33,
+            "broadleaf": null,
+            "conifer": null,
+            "mixed": null,
+            "crop": 16.61,
+            "paddy": 9.75,
+            "field": 6.62,
+            "orchard": 0.27,
+            "greenhouse": 0.31,
+            "built": 6.17,
+            "grass": 1.9,
+            "wetland": 0.03,
+            "bare": 0.22,
+            "water": 3.7
+          },
+          "area_vs_stats_err_pct": {
+            "forest": 27.5,
+            "paddy": 30.2,
+            "field": -7.9,
+            "built": -20.5
+          }
+        },
+        "현재_전체판_WMS50m": {
+          "pct": {
+            "forest": 54.75,
+            "broadleaf": 26.81,
+            "conifer": 21.82,
+            "mixed": 6.1,
+            "crop": 20.25,
+            "paddy": 8.21,
+            "field": 8.94,
+            "orchard": 1.95,
+            "greenhouse": 0.74,
+            "built": 5.1,
+            "grass": 7.31,
+            "wetland": 1.42,
+            "bare": 2.15,
+            "water": 1.97
+          },
+          "area_vs_stats_err_pct": {
+            "forest": -2.1,
+            "paddy": 9.5,
+            "field": 24.4,
+            "built": -34.3
+          }
+        },
+        "후보A_ESA10m_50m직접+팜맵4도": {
+          "pct": {
+            "forest": 67.38,
+            "broadleaf": null,
+            "conifer": null,
+            "mixed": null,
+            "crop": 15.52,
+            "paddy": 7.42,
+            "field": 7.56,
+            "orchard": 1.1,
+            "greenhouse": 0.34,
+            "built": 7.75,
+            "grass": 6.15,
+            "wetland": 0.07,
+            "bare": 0.6,
+            "water": 2.53
+          },
+          "area_vs_stats_err_pct": {
+            "forest": 20.5,
+            "paddy": -1.0,
+            "field": 5.2,
+            "built": -0.2
+          }
+        },
+        "후보B_환경부1대5000도엽통계_15150509": {
+          "pct": {
+            "forest": 56.23,
+            "broadleaf": 26.94,
+            "conifer": 22.31,
+            "mixed": 7.01,
+            "crop": 17.16,
+            "paddy": 7.41,
+            "field": 7.22,
+            "orchard": 1.49,
+            "greenhouse": 0.81,
+            "built": 7.72,
+            "grass": 11.01,
+            "wetland": 2.26,
+            "bare": 3.45,
+            "water": 2.18
+          },
+          "area_vs_stats_err_pct": {
+            "forest": 0.5,
+            "paddy": -1.1,
+            "field": 0.4,
+            "built": -0.6
+          }
+        },
+        "후보C_1대5000도엽+ESA10m결합": {
+          "pct": {
+            "forest": 56.23,
+            "broadleaf": 26.93,
+            "conifer": 22.3,
+            "mixed": 6.99,
+            "crop": 17.16,
+            "paddy": 7.6,
+            "field": 7.28,
+            "orchard": 1.46,
+            "greenhouse": 0.81,
+            "built": 7.72,
+            "grass": 11.01,
+            "wetland": 2.26,
+            "bare": 3.45,
+            "water": 2.18
+          },
+          "area_vs_stats_err_pct": {
+            "forest": 0.5,
+            "paddy": 1.5,
+            "field": 1.2,
+            "built": -0.6
+          }
+        },
+        "후보D_ESA10m+제1유형통계보정": {
+          "pct": {
+            "forest": 56.5,
+            "broadleaf": 26.96,
+            "conifer": 22.55,
+            "mixed": 6.99,
+            "crop": 17.62,
+            "paddy": 7.77,
+            "field": 7.46,
+            "orchard": 1.55,
+            "greenhouse": 0.84,
+            "built": 7.92,
+            "grass": 11.09,
+            "wetland": 1.27,
+            "bare": 3.34,
+            "water": 2.27
+          },
+          "area_vs_stats_err_pct": {
+            "forest": 1.0,
+            "paddy": 3.7,
+            "field": 3.7,
+            "built": 2.0
+          }
+        },
+        "후보E_ESA10m+국토부지적통계15063997": {
+          "pct": {
+            "forest": 62.59,
+            "broadleaf": null,
+            "conifer": null,
+            "mixed": null,
+            "crop": 19.83,
+            "paddy": 11.31,
+            "field": 7.81,
+            "orchard": 0.71,
+            "greenhouse": 0.0,
+            "built": 9.03,
+            "grass": 1.06,
+            "wetland": 0.13,
+            "bare": 1.32,
+            "water": 6.05
+          },
+          "area_vs_stats_err_pct": {
+            "forest": 11.9,
+            "paddy": 51.0,
+            "field": 8.7,
+            "built": 16.3
+          }
+        }
+      }
+    },
+    "전국_전체_5027칸": {
+      "n_cells": 5027,
+      "stats_land_ha": 9972446.9,
+      "official_stats_pct": {
+        "forest": 57.67,
+        "broadleaf": 28.64,
+        "conifer": 21.87,
+        "mixed": 7.15,
+        "crop": 17.05,
+        "paddy": 7.51,
+        "field": 7.07,
+        "orchard": 1.41,
+        "greenhouse": 0.82,
+        "built": 7.74,
+        "grass": 10.74,
+        "wetland": 1.26,
+        "bare": 3.29,
+        "water": 2.27
+      },
+      "methods": {
+        "현재_공개판_ESA250m": {
+          "pct": {
+            "forest": 71.38,
+            "broadleaf": null,
+            "conifer": null,
+            "mixed": null,
+            "crop": 16.17,
+            "paddy": 9.51,
+            "field": 6.45,
+            "orchard": 0.27,
+            "greenhouse": 0.31,
+            "built": 6.38,
+            "grass": 2.03,
+            "wetland": 0.03,
+            "bare": 0.25,
+            "water": 3.73
+          },
+          "area_vs_stats_err_pct": {
+            "forest": 27.1,
+            "paddy": 29.9,
+            "field": -6.4,
+            "built": -15.4
+          }
+        },
+        "현재_전체판_WMS50m": {
+          "pct": {
+            "forest": 55.65,
+            "broadleaf": 27.08,
+            "conifer": 21.44,
+            "mixed": 6.11,
+            "crop": 19.54,
+            "paddy": 8.05,
+            "field": 8.81,
+            "orchard": 1.87,
+            "greenhouse": 0.73,
+            "built": 5.27,
+            "grass": 7.05,
+            "wetland": 1.33,
+            "bare": 2.08,
+            "water": 2.07
+          },
+          "area_vs_stats_err_pct": {
+            "forest": -0.9,
+            "paddy": 3.7,
+            "field": 20.5,
+            "built": -30.0
+          }
+        },
+        "후보A_ESA10m_50m직접+팜맵4도": {
+          "pct": {
+            "forest": 67.47,
+            "broadleaf": null,
+            "conifer": null,
+            "mixed": null,
+            "crop": 15.13,
+            "paddy": 7.35,
+            "field": 7.29,
+            "orchard": 1.1,
+            "greenhouse": 0.34,
+            "built": 7.84,
+            "grass": 6.29,
+            "wetland": 0.06,
+            "bare": 0.65,
+            "water": 2.56
+          },
+          "area_vs_stats_err_pct": {
+            "forest": 20.1,
+            "paddy": 0.5,
+            "field": 5.8,
+            "built": 4.0
+          }
+        },
+        "후보B_환경부1대5000도엽통계_15150509": {
+          "pct": {
+            "forest": 56.77,
+            "broadleaf": 28.19,
+            "conifer": 21.44,
+            "mixed": 7.16,
+            "crop": 16.72,
+            "paddy": 7.36,
+            "field": 6.99,
+            "orchard": 1.36,
+            "greenhouse": 0.79,
+            "built": 7.75,
+            "grass": 10.74,
+            "wetland": 2.33,
+            "bare": 3.48,
+            "water": 2.21
+          },
+          "area_vs_stats_err_pct": {
+            "forest": 1.1,
+            "paddy": 0.6,
+            "field": 1.5,
+            "built": 2.8
+          }
+        },
+        "후보C_1대5000도엽+ESA10m결합": {
+          "pct": {
+            "forest": 56.77,
+            "broadleaf": 28.18,
+            "conifer": 21.43,
+            "mixed": 7.14,
+            "crop": 16.72,
+            "paddy": 7.54,
+            "field": 7.05,
+            "orchard": 1.34,
+            "greenhouse": 0.79,
+            "built": 7.75,
+            "grass": 10.74,
+            "wetland": 2.33,
+            "bare": 3.48,
+            "water": 2.21
+          },
+          "area_vs_stats_err_pct": {
+            "forest": 1.1,
+            "paddy": 3.1,
+            "field": 2.4,
+            "built": 2.8
+          }
+        },
+        "후보D_ESA10m+제1유형통계보정": {
+          "pct": {
+            "forest": 57.21,
+            "broadleaf": 28.44,
+            "conifer": 21.85,
+            "mixed": 7.17,
+            "crop": 17.18,
+            "paddy": 7.72,
+            "field": 7.23,
+            "orchard": 1.42,
+            "greenhouse": 0.83,
+            "built": 7.97,
+            "grass": 10.77,
+            "wetland": 1.25,
+            "bare": 3.34,
+            "water": 2.27
+          },
+          "area_vs_stats_err_pct": {
+            "forest": 1.9,
+            "paddy": 5.6,
+            "field": 5.0,
+            "built": 5.8
+          }
+        },
+        "후보E_ESA10m+국토부지적통계15063997": {
+          "pct": {
+            "forest": 62.82,
+            "broadleaf": null,
+            "conifer": null,
+            "mixed": null,
+            "crop": 19.44,
+            "paddy": 11.03,
+            "field": 7.75,
+            "orchard": 0.66,
+            "greenhouse": 0.0,
+            "built": 9.01,
+            "grass": 1.13,
+            "wetland": 0.12,
+            "bare": 1.52,
+            "water": 5.97
+          },
+          "area_vs_stats_err_pct": {
+            "forest": 11.9,
+            "paddy": 50.8,
+            "field": 12.6,
+            "built": 19.6
+          }
+        }
+      }
+    },
+    "평야_김제_익산": {
+      "n_cells": 53,
+      "stats_land_ha": 105394.9,
+      "official_stats_pct": {
+        "forest": 12.8,
+        "broadleaf": 4.04,
+        "conifer": 7.45,
+        "mixed": 1.31,
+        "crop": 51.04,
+        "paddy": 34.84,
+        "field": 12.73,
+        "orchard": 0.76,
+        "greenhouse": 2.17,
+        "built": 12.28,
+        "grass": 14.54,
+        "wetland": 2.38,
+        "bare": 3.37,
+        "water": 3.6
+      },
+      "methods": {
+        "현재_공개판_ESA250m": {
+          "pct": {
+            "forest": 18.6,
+            "broadleaf": null,
+            "conifer": null,
+            "mixed": null,
+            "crop": 69.3,
+            "paddy": 55.3,
+            "field": 12.43,
+            "orchard": 0.19,
+            "greenhouse": 1.26,
+            "built": 8.47,
+            "grass": 1.91,
+            "wetland": 0.08,
+            "bare": 0.09,
+            "water": 1.49
+          },
+          "area_vs_stats_err_pct": {
+            "forest": 48.9,
+            "paddy": 62.6,
+            "field": 0.1,
+            "built": -29.3
+          }
+        },
+        "현재_전체판_WMS50m": {
+          "pct": {
+            "forest": 11.64,
+            "broadleaf": 3.64,
+            "conifer": 6.85,
+            "mixed": 1.0,
+            "crop": 61.96,
+            "paddy": 41.89,
+            "field": 15.74,
+            "orchard": 0.92,
+            "greenhouse": 2.6,
+            "built": 7.09,
+            "grass": 7.15,
+            "wetland": 1.26,
+            "bare": 1.51,
+            "water": 2.74
+          },
+          "area_vs_stats_err_pct": {
+            "forest": -6.8,
+            "paddy": 23.1,
+            "field": 26.7,
+            "built": -40.8
+          }
+        },
+        "후보A_ESA10m_50m직접+팜맵4도": {
+          "pct": {
+            "forest": 19.78,
+            "broadleaf": null,
+            "conifer": null,
+            "mixed": null,
+            "crop": 58.33,
+            "paddy": 41.94,
+            "field": 14.78,
+            "orchard": 0.41,
+            "greenhouse": 1.19,
+            "built": 12.9,
+            "grass": 6.46,
+            "wetland": 0.13,
+            "bare": 0.65,
+            "water": 1.76
+          },
+          "area_vs_stats_err_pct": {
+            "forest": 58.3,
+            "paddy": 23.3,
+            "field": 19.0,
+            "built": 7.6
+          }
+        },
+        "후보B_환경부1대5000도엽통계_15150509": {
+          "pct": {
+            "forest": 12.19,
+            "broadleaf": 3.93,
+            "conifer": 7.01,
+            "mixed": 1.24,
+            "crop": 51.64,
+            "paddy": 36.29,
+            "field": 11.91,
+            "orchard": 0.77,
+            "greenhouse": 2.15,
+            "built": 12.2,
+            "grass": 14.52,
+            "wetland": 2.57,
+            "bare": 3.38,
+            "water": 3.5
+          },
+          "area_vs_stats_err_pct": {
+            "forest": -2.5,
+            "paddy": 6.7,
+            "field": -4.1,
+            "built": 1.8
+          }
+        },
+        "후보C_1대5000도엽+ESA10m결합": {
+          "pct": {
+            "forest": 12.19,
+            "broadleaf": 3.86,
+            "conifer": 7.04,
+            "mixed": 1.28,
+            "crop": 51.64,
+            "paddy": 36.77,
+            "field": 11.95,
+            "orchard": 0.77,
+            "greenhouse": 2.17,
+            "built": 12.2,
+            "grass": 14.52,
+            "wetland": 2.57,
+            "bare": 3.38,
+            "water": 3.5
+          },
+          "area_vs_stats_err_pct": {
+            "forest": -2.5,
+            "paddy": 8.1,
+            "field": -3.9,
+            "built": 1.8
+          }
+        },
+        "후보D_ESA10m+제1유형통계보정": {
+          "pct": {
+            "forest": 12.79,
+            "broadleaf": 4.03,
+            "conifer": 7.46,
+            "mixed": 1.31,
+            "crop": 51.09,
+            "paddy": 35.25,
+            "field": 12.87,
+            "orchard": 0.78,
+            "greenhouse": 2.2,
+            "built": 12.24,
+            "grass": 14.51,
+            "wetland": 2.39,
+            "bare": 3.37,
+            "water": 3.61
+          },
+          "area_vs_stats_err_pct": {
+            "forest": 2.4,
+            "paddy": 3.6,
+            "field": 3.6,
+            "built": 2.2
+          }
+        },
+        "후보E_ESA10m+국토부지적통계15063997": {
+          "pct": {
+            "forest": 21.26,
+            "broadleaf": null,
+            "conifer": null,
+            "mixed": null,
+            "crop": 49.08,
+            "paddy": 39.04,
+            "field": 9.87,
+            "orchard": 0.17,
+            "greenhouse": 0.0,
+            "built": 13.74,
+            "grass": 0.9,
+            "wetland": 0.1,
+            "bare": 2.4,
+            "water": 12.52
+          },
+          "area_vs_stats_err_pct": {
+            "forest": 70.1,
+            "paddy": 14.8,
+            "field": -20.6,
+            "built": 14.7
+          }
+        }
+      }
+    },
+    "산지_강원_인제군": {
+      "n_cells": 81,
+      "stats_land_ha": 164146.8,
+      "official_stats_pct": {
+        "forest": 88.49,
+        "broadleaf": 54.57,
+        "conifer": 21.8,
+        "mixed": 12.12,
+        "crop": 2.46,
+        "paddy": 0.4,
+        "field": 1.89,
+        "orchard": 0.03,
+        "greenhouse": 0.11,
+        "built": 1.3,
+        "grass": 3.58,
+        "wetland": 0.7,
+        "bare": 2.23,
+        "water": 1.25
+      },
+      "methods": {
+        "현재_공개판_ESA250m": {
+          "pct": {
+            "forest": 96.28,
+            "broadleaf": null,
+            "conifer": null,
+            "mixed": null,
+            "crop": 1.59,
+            "paddy": 0.21,
+            "field": 1.33,
+            "orchard": null,
+            "greenhouse": null,
+            "built": 0.57,
+            "grass": 0.77,
+            "wetland": 0.0,
+            "bare": 0.02,
+            "water": 0.79
+          },
+          "area_vs_stats_err_pct": {
+            "forest": 9.4,
+            "paddy": -47.7,
+            "field": -29.0,
+            "built": -56.2
+          }
+        },
+        "현재_전체판_WMS50m": {
+          "pct": {
+            "forest": 84.75,
+            "broadleaf": 49.79,
+            "conifer": 20.91,
+            "mixed": 8.72,
+            "crop": 2.33,
+            "paddy": 0.21,
+            "field": 2.32,
+            "orchard": 0.0,
+            "greenhouse": 0.05,
+            "built": 0.48,
+            "grass": 2.31,
+            "wetland": 0.41,
+            "bare": 1.05,
+            "water": 1.02
+          },
+          "area_vs_stats_err_pct": {
+            "forest": -3.7,
+            "paddy": -63.1,
+            "field": -13.2,
+            "built": -62.9
+          }
+        },
+        "후보A_ESA10m_50m직접+팜맵4도": {
+          "pct": {
+            "forest": 93.04,
+            "broadleaf": null,
+            "conifer": null,
+            "mixed": null,
+            "crop": 1.96,
+            "paddy": 0.32,
+            "field": 1.63,
+            "orchard": null,
+            "greenhouse": null,
+            "built": 1.02,
+            "grass": 2.8,
+            "wetland": 0.0,
+            "bare": 0.31,
+            "water": 0.88
+          },
+          "area_vs_stats_err_pct": {
+            "forest": 5.7,
+            "paddy": -19.2,
+            "field": -13.0,
+            "built": -21.5
+          }
+        },
+        "후보B_환경부1대5000도엽통계_15150509": {
+          "pct": {
+            "forest": 88.3,
+            "broadleaf": 54.62,
+            "conifer": 21.77,
+            "mixed": 11.91,
+            "crop": 2.59,
+            "paddy": 0.41,
+            "field": 1.99,
+            "orchard": 0.03,
+            "greenhouse": 0.13,
+            "built": 1.31,
+            "grass": 3.61,
+            "wetland": 0.69,
+            "bare": 2.23,
+            "water": 1.27
+          },
+          "area_vs_stats_err_pct": {
+            "forest": 0.3,
+            "paddy": 2.5,
+            "field": 6.3,
+            "built": 1.0
+          }
+        },
+        "후보C_1대5000도엽+ESA10m결합": {
+          "pct": {
+            "forest": 88.3,
+            "broadleaf": 54.63,
+            "conifer": 21.79,
+            "mixed": 11.88,
+            "crop": 2.59,
+            "paddy": 0.42,
+            "field": 2.01,
+            "orchard": 0.03,
+            "greenhouse": 0.13,
+            "built": 1.31,
+            "grass": 3.61,
+            "wetland": 0.69,
+            "bare": 2.23,
+            "water": 1.27
+          },
+          "area_vs_stats_err_pct": {
+            "forest": 0.3,
+            "paddy": 4.7,
+            "field": 7.1,
+            "built": 1.0
+          }
+        },
+        "후보D_ESA10m+제1유형통계보정": {
+          "pct": {
+            "forest": 88.49,
+            "broadleaf": 54.57,
+            "conifer": 21.8,
+            "mixed": 12.12,
+            "crop": 2.46,
+            "paddy": 0.41,
+            "field": 1.91,
+            "orchard": 0.03,
+            "greenhouse": 0.11,
+            "built": 1.3,
+            "grass": 3.58,
+            "wetland": 0.7,
+            "bare": 2.23,
+            "water": 1.25
+          },
+          "area_vs_stats_err_pct": {
+            "forest": 0.5,
+            "paddy": 1.6,
+            "field": 1.6,
+            "built": 0.5
+          }
+        },
+        "후보E_ESA10m+국토부지적통계15063997": {
+          "pct": {
+            "forest": 89.4,
+            "broadleaf": null,
+            "conifer": null,
+            "mixed": null,
+            "crop": 4.22,
+            "paddy": 0.9,
+            "field": 3.31,
+            "orchard": 0.01,
+            "greenhouse": 0.0,
+            "built": 1.61,
+            "grass": 0.09,
+            "wetland": 0.0,
+            "bare": 1.06,
+            "water": 3.61
+          },
+          "area_vs_stats_err_pct": {
+            "forest": 1.6,
+            "paddy": 124.9,
+            "field": 76.3,
+            "built": 24.5
+          }
+        }
+      }
+    },
+    "대도시_서울특별시": {
+      "n_cells": 29,
+      "stats_land_ha": 60575.6,
+      "official_stats_pct": {
+        "forest": 23.17,
+        "broadleaf": 15.74,
+        "conifer": 4.22,
+        "mixed": 3.21,
+        "crop": 1.6,
+        "paddy": 0.31,
+        "field": 0.99,
+        "orchard": 0.06,
+        "greenhouse": 0.18,
+        "built": 52.97,
+        "grass": 11.97,
+        "wetland": 0.3,
+        "bare": 4.73,
+        "water": 5.26
+      },
+      "methods": {
+        "현재_공개판_ESA250m": {
+          "pct": {
+            "forest": 29.79,
+            "broadleaf": null,
+            "conifer": null,
+            "mixed": null,
+            "crop": 1.52,
+            "paddy": 0.72,
+            "field": 0.72,
+            "orchard": null,
+            "greenhouse": null,
+            "built": 62.21,
+            "grass": 1.03,
+            "wetland": 0.0,
+            "bare": 0.14,
+            "water": 5.28
+          },
+          "area_vs_stats_err_pct": {
+            "forest": 25.4,
+            "paddy": 126.9,
+            "field": -28.8,
+            "built": 14.5
+          }
+        },
+        "현재_전체판_WMS50m": {
+          "pct": {
+            "forest": 21.86,
+            "broadleaf": 15.28,
+            "conifer": 3.72,
+            "mixed": 2.79,
+            "crop": 2.24,
+            "paddy": 0.55,
+            "field": 1.17,
+            "orchard": 0.07,
+            "greenhouse": 0.31,
+            "built": 51.41,
+            "grass": 8.55,
+            "wetland": 0.17,
+            "bare": 3.31,
+            "water": 5.34
+          },
+          "area_vs_stats_err_pct": {
+            "forest": -8.0,
+            "paddy": 72.8,
+            "field": 15.3,
+            "built": -5.4
+          }
+        },
+        "후보A_ESA10m_50m직접+팜맵4도": {
+          "pct": {
+            "forest": 33.06,
+            "broadleaf": null,
+            "conifer": null,
+            "mixed": null,
+            "crop": 2.06,
+            "paddy": 1.04,
+            "field": 1.02,
+            "orchard": null,
+            "greenhouse": null,
+            "built": 56.7,
+            "grass": 2.36,
+            "wetland": 0.0,
+            "bare": 0.71,
+            "water": 5.1
+          },
+          "area_vs_stats_err_pct": {
+            "forest": 39.2,
+            "paddy": 225.7,
+            "field": 0.4,
+            "built": 4.4
+          }
+        },
+        "후보B_환경부1대5000도엽통계_15150509": {
+          "pct": {
+            "forest": 22.89,
+            "broadleaf": 15.48,
+            "conifer": 4.21,
+            "mixed": 3.2,
+            "crop": 2.17,
+            "paddy": 0.48,
+            "field": 1.26,
+            "orchard": 0.1,
+            "greenhouse": 0.28,
+            "built": 52.15,
+            "grass": 11.86,
+            "wetland": 0.35,
+            "bare": 5.08,
+            "water": 5.51
+          },
+          "area_vs_stats_err_pct": {
+            "forest": -3.7,
+            "paddy": 49.5,
+            "field": 23.9,
+            "built": -4.0
+          }
+        },
+        "후보C_1대5000도엽+ESA10m결합": {
+          "pct": {
+            "forest": 22.89,
+            "broadleaf": 15.49,
+            "conifer": 4.21,
+            "mixed": 3.19,
+            "crop": 2.17,
+            "paddy": 0.48,
+            "field": 1.3,
+            "orchard": 0.1,
+            "greenhouse": 0.29,
+            "built": 52.15,
+            "grass": 11.86,
+            "wetland": 0.35,
+            "bare": 5.08,
+            "water": 5.51
+          },
+          "area_vs_stats_err_pct": {
+            "forest": -3.7,
+            "paddy": 48.9,
+            "field": 27.7,
+            "built": -4.0
+          }
+        },
+        "후보D_ESA10m+제1유형통계보정": {
+          "pct": {
+            "forest": 22.09,
+            "broadleaf": 15.13,
+            "conifer": 3.93,
+            "mixed": 3.03,
+            "crop": 1.58,
+            "paddy": 0.31,
+            "field": 1.01,
+            "orchard": 0.06,
+            "greenhouse": 0.2,
+            "built": 54.45,
+            "grass": 11.78,
+            "wetland": 0.27,
+            "bare": 4.81,
+            "water": 5.02
+          },
+          "area_vs_stats_err_pct": {
+            "forest": -7.0,
+            "paddy": -1.3,
+            "field": -0.3,
+            "built": 0.2
+          }
+        },
+        "후보E_ESA10m+국토부지적통계15063997": {
+          "pct": {
+            "forest": 21.44,
+            "broadleaf": null,
+            "conifer": null,
+            "mixed": null,
+            "crop": 2.79,
+            "paddy": 1.24,
+            "field": 1.52,
+            "orchard": 0.05,
+            "greenhouse": 0.0,
+            "built": 58.68,
+            "grass": 4.76,
+            "wetland": 0.0,
+            "bare": 3.25,
+            "water": 9.08
+          },
+          "area_vs_stats_err_pct": {
+            "forest": -9.8,
+            "paddy": 287.1,
+            "field": 49.3,
+            "built": 8.0
+          }
+        }
+      }
+    },
+    "접경_연천_고성군": {
+      "n_cells": 72,
+      "stats_land_ha": 134635.9,
+      "official_stats_pct": {
+        "forest": 69.17,
+        "broadleaf": 49.32,
+        "conifer": 13.58,
+        "mixed": 6.27,
+        "crop": 12.82,
+        "paddy": 7.52,
+        "field": 4.82,
+        "orchard": 0.05,
+        "greenhouse": 0.27,
+        "built": 3.65,
+        "grass": 8.79,
+        "wetland": 1.39,
+        "bare": 2.67,
+        "water": 1.53
+      },
+      "methods": {
+        "현재_공개판_ESA250m": {
+          "pct": {
+            "forest": 80.79,
+            "broadleaf": null,
+            "conifer": null,
+            "mixed": null,
+            "crop": 9.96,
+            "paddy": 5.57,
+            "field": 4.35,
+            "orchard": null,
+            "greenhouse": null,
+            "built": 1.71,
+            "grass": 5.56,
+            "wetland": 0.01,
+            "bare": 0.06,
+            "water": 1.86
+          },
+          "area_vs_stats_err_pct": {
+            "forest": 27.2,
+            "paddy": -19.4,
+            "field": -1.7,
+            "built": -49.0
+          }
+        },
+        "현재_전체판_WMS50m": {
+          "pct": {
+            "forest": 80.79,
+            "broadleaf": null,
+            "conifer": null,
+            "mixed": null,
+            "crop": 9.96,
+            "paddy": null,
+            "field": null,
+            "orchard": null,
+            "greenhouse": null,
+            "built": 1.71,
+            "grass": 5.56,
+            "wetland": 0.01,
+            "bare": 0.06,
+            "water": 1.86
+          },
+          "area_vs_stats_err_pct": {
+            "forest": 27.2,
+            "paddy": -100.0,
+            "field": -100.0,
+            "built": -49.0
+          }
+        },
+        "후보A_ESA10m_50m직접+팜맵4도": {
+          "pct": {
+            "forest": 74.99,
+            "broadleaf": null,
+            "conifer": null,
+            "mixed": null,
+            "crop": 10.06,
+            "paddy": 5.65,
+            "field": 4.41,
+            "orchard": null,
+            "greenhouse": null,
+            "built": 2.81,
+            "grass": 10.19,
+            "wetland": 0.03,
+            "bare": 0.46,
+            "water": 1.45
+          },
+          "area_vs_stats_err_pct": {
+            "forest": 18.1,
+            "paddy": -18.2,
+            "field": -0.3,
+            "built": -15.9
+          }
+        },
+        "후보B_환경부1대5000도엽통계_15150509": {
+          "pct": {
+            "forest": 70.34,
+            "broadleaf": 50.29,
+            "conifer": 13.36,
+            "mixed": 6.69,
+            "crop": 11.91,
+            "paddy": 6.99,
+            "field": 4.51,
+            "orchard": 0.04,
+            "greenhouse": 0.23,
+            "built": 3.37,
+            "grass": 9.0,
+            "wetland": 1.32,
+            "bare": 2.59,
+            "water": 1.49
+          },
+          "area_vs_stats_err_pct": {
+            "forest": 10.8,
+            "paddy": 1.1,
+            "field": 1.9,
+            "built": 0.6
+          }
+        },
+        "후보C_1대5000도엽+ESA10m결합": {
+          "pct": {
+            "forest": 70.34,
+            "broadleaf": 50.3,
+            "conifer": 13.37,
+            "mixed": 6.66,
+            "crop": 11.91,
+            "paddy": 7.1,
+            "field": 4.53,
+            "orchard": 0.04,
+            "greenhouse": 0.23,
+            "built": 3.37,
+            "grass": 9.0,
+            "wetland": 1.32,
+            "bare": 2.59,
+            "water": 1.49
+          },
+          "area_vs_stats_err_pct": {
+            "forest": 10.8,
+            "paddy": 2.8,
+            "field": 2.5,
+            "built": 0.6
+          }
+        },
+        "후보D_ESA10m+제1유형통계보정": {
+          "pct": {
+            "forest": 69.07,
+            "broadleaf": 49.32,
+            "conifer": 13.5,
+            "mixed": 6.24,
+            "crop": 12.88,
+            "paddy": 7.64,
+            "field": 4.91,
+            "orchard": 0.06,
+            "greenhouse": 0.27,
+            "built": 3.65,
+            "grass": 8.81,
+            "wetland": 1.39,
+            "bare": 2.67,
+            "water": 1.53
+          },
+          "area_vs_stats_err_pct": {
+            "forest": 8.8,
+            "paddy": 10.6,
+            "field": 11.0,
+            "built": 9.1
+          }
+        },
+        "후보E_ESA10m+국토부지적통계15063997": {
+          "pct": {
+            "forest": 70.91,
+            "broadleaf": null,
+            "conifer": null,
+            "mixed": null,
+            "crop": 14.03,
+            "paddy": 6.8,
+            "field": 7.21,
+            "orchard": 0.02,
+            "greenhouse": 0.0,
+            "built": 3.87,
+            "grass": 0.54,
+            "wetland": 0.01,
+            "bare": 5.36,
+            "water": 5.29
+          },
+          "area_vs_stats_err_pct": {
+            "forest": 11.7,
+            "paddy": -1.6,
+            "field": 63.0,
+            "built": 15.6
+          }
+        }
+      }
+    },
+    "도서_제주특별자치도": {
+      "n_cells": 96,
+      "stats_land_ha": 186484.1,
+      "official_stats_pct": {
+        "forest": 32.99,
+        "broadleaf": 17.78,
+        "conifer": 10.83,
+        "mixed": 4.37,
+        "crop": 35.33,
+        "paddy": 0.12,
+        "field": 21.04,
+        "orchard": 10.05,
+        "greenhouse": 3.86,
+        "built": 9.37,
+        "grass": 18.31,
+        "wetland": 0.39,
+        "bare": 3.35,
+        "water": 0.27
+      },
+      "methods": {
+        "현재_공개판_ESA250m": {
+          "pct": {
+            "forest": 69.23,
+            "broadleaf": null,
+            "conifer": null,
+            "mixed": null,
+            "crop": 14.56,
+            "paddy": 0.0,
+            "field": 14.56,
+            "orchard": null,
+            "greenhouse": null,
+            "built": 7.49,
+            "grass": 4.21,
+            "wetland": 0.01,
+            "bare": 0.02,
+            "water": 4.48
+          },
+          "area_vs_stats_err_pct": {
+            "forest": 120.1,
+            "paddy": -100.0,
+            "field": -27.4,
+            "built": -16.2
+          }
+        },
+        "현재_전체판_WMS50m": {
+          "pct": {
+            "forest": 31.02,
+            "broadleaf": 16.88,
+            "conifer": 10.21,
+            "mixed": 3.89,
+            "crop": 41.65,
+            "paddy": 0.1,
+            "field": 24.32,
+            "orchard": 14.33,
+            "greenhouse": 2.51,
+            "built": 5.57,
+            "grass": 13.52,
+            "wetland": 0.27,
+            "bare": 1.9,
+            "water": 0.15
+          },
+          "area_vs_stats_err_pct": {
+            "forest": -1.4,
+            "paddy": -11.1,
+            "field": 21.2,
+            "built": -37.6
+          }
+        },
+        "후보A_ESA10m_50m직접+팜맵4도": {
+          "pct": {
+            "forest": 62.11,
+            "broadleaf": null,
+            "conifer": null,
+            "mixed": null,
+            "crop": 16.57,
+            "paddy": 0.0,
+            "field": 14.29,
+            "orchard": 2.06,
+            "greenhouse": 0.4,
+            "built": 11.07,
+            "grass": 7.75,
+            "wetland": 0.02,
+            "bare": 0.34,
+            "water": 2.14
+          },
+          "area_vs_stats_err_pct": {
+            "forest": 97.4,
+            "paddy": -99.6,
+            "field": -28.8,
+            "built": 23.9
+          }
+        },
+        "후보B_환경부1대5000도엽통계_15150509": {
+          "pct": {
+            "forest": 32.15,
+            "broadleaf": 17.48,
+            "conifer": 11.12,
+            "mixed": 4.16,
+            "crop": 35.24,
+            "paddy": 0.21,
+            "field": 23.25,
+            "orchard": 8.37,
+            "greenhouse": 3.1,
+            "built": 9.59,
+            "grass": 18.3,
+            "wetland": 0.38,
+            "bare": 3.52,
+            "water": 0.82
+          },
+          "area_vs_stats_err_pct": {
+            "forest": 2.2,
+            "paddy": 79.9,
+            "field": 15.9,
+            "built": 7.4
+          }
+        },
+        "후보C_1대5000도엽+ESA10m결합": {
+          "pct": {
+            "forest": 32.15,
+            "broadleaf": 16.22,
+            "conifer": 11.79,
+            "mixed": 4.09,
+            "crop": 35.24,
+            "paddy": 0.21,
+            "field": 24.33,
+            "orchard": 7.84,
+            "greenhouse": 2.86,
+            "built": 9.59,
+            "grass": 18.3,
+            "wetland": 0.38,
+            "bare": 3.52,
+            "water": 0.82
+          },
+          "area_vs_stats_err_pct": {
+            "forest": 2.2,
+            "paddy": 77.9,
+            "field": 21.3,
+            "built": 7.4
+          }
+        },
+        "후보D_ESA10m+제1유형통계보정": {
+          "pct": {
+            "forest": 32.99,
+            "broadleaf": 17.78,
+            "conifer": 10.78,
+            "mixed": 4.43,
+            "crop": 35.4,
+            "paddy": 0.12,
+            "field": 21.1,
+            "orchard": 10.23,
+            "greenhouse": 3.95,
+            "built": 9.33,
+            "grass": 18.26,
+            "wetland": 0.39,
+            "bare": 3.36,
+            "water": 0.27
+          },
+          "area_vs_stats_err_pct": {
+            "forest": 4.9,
+            "paddy": 3.8,
+            "field": 5.2,
+            "built": 4.4
+          }
+        },
+        "후보E_ESA10m+국토부지적통계15063997": {
+          "pct": {
+            "forest": 46.47,
+            "broadleaf": null,
+            "conifer": null,
+            "mixed": null,
+            "crop": 35.8,
+            "paddy": 0.42,
+            "field": 24.44,
+            "orchard": 10.94,
+            "greenhouse": 0.0,
+            "built": 10.95,
+            "grass": 2.92,
+            "wetland": 0.14,
+            "bare": 1.89,
+            "water": 1.83
+          },
+          "area_vs_stats_err_pct": {
+            "forest": 47.7,
+            "paddy": 260.2,
+            "field": 21.8,
+            "built": 22.6
+          }
+        }
+      }
+    }
+  }
+}

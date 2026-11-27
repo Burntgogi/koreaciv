@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>신여지도 — 통계로 새긴 대한민국</title>
+<meta name="description" content="공공 통계로 그린 대한민국 육각 칸 지도. 멀리서는 먹으로 찍은 지도, 다가가면 칸마다 빛깔이 배어 나온다.">
+<meta name="theme-color" content="#efe6d2">
+<link rel="preload" href="fonts/Hahmlet-VF.subset.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/YeojidoSans-VF.subset.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/app.css">
+<link rel="stylesheet" href="css/lens.css">
+<link rel="stylesheet" href="css/panels.css">
+<link rel="stylesheet" href="css/layers.css">
+<link rel="stylesheet" href="css/modals.css">
+</head>
+<body class="is-loading">
+<a class="skip" href="#places">고을 목록으로 건너뛰기</a>
+
+<div id="sheet">
+  <header id="masthead">
+    <button id="nationbtn" type="button" aria-haspopup="dialog"></button>
+    <div id="ledger" role="group" aria-label="나라 장부 — 누르면 순위 보고서"></div>
+    <div id="tools" role="toolbar" aria-label="도구"></div>
+  </header>
+  <div id="slip"></div>
+  <nav id="rail" aria-label="렌즈"></nav>
+  <main id="plate">
+    <canvas id="map" tabindex="0" role="application" aria-label="대한민국 육각 칸 지도" aria-describedby="maphelp"></canvas>
+    <p id="maphelp" class="sr-only">방향키로 움직이고 더하기·빼기로 확대합니다. 빗금(/)으로 찾기, 물음표(?)로 도움말을 엽니다. 지도 내용은 화면 아래 '고을 목록'에서 글로 읽을 수 있습니다.</p>
+    <div id="legend" hidden></div>
+    <div id="key"></div>
+    <div id="cellstrip" hidden></div>
+  </main>
+  <div id="layers" role="group" aria-label="지도 층"></div>
+  <footer id="foot"></footer>
+</div>
+
+<aside id="panel" aria-label="장" hidden></aside>
+<div id="drawer" hidden></div>
+<div id="modal-root"></div>
+<div id="tip" role="tooltip" hidden></div>
+<div id="toast" role="status" aria-live="polite" hidden></div>
+<div id="live" class="sr-only" aria-live="polite"></div>
+<section id="intro" aria-label="표지" hidden></section>
+<div id="loader" role="status" aria-live="polite">
+  <span class="seal" aria-hidden="true"></span>
+  <p>땅과 물을 새기는 중</p>
+  <div class="bar"><i></i></div>
+</div>
+<nav id="places" aria-label="고을 목록 (지도를 글로 읽기)"></nav>
+<noscript><p class="noscript">이 지도는 자바스크립트로 그립니다. 자료는 ../data/ 의 JSON 파일에 있습니다.</p></noscript>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

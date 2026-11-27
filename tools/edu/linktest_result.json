@@ -1,0 +1,5754 @@
+{
+ "profile": "public",
+ "tested": 194,
+ "failed": [],
+ "errors": {},
+ "rows": [
+  {
+   "id": "start1",
+   "edition": "classic",
+   "hash": "#v=3100,2900,0.22",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [
+     "infra",
+     "resources",
+     "wonders"
+    ],
+    "hide": [],
+    "cam": [
+     3100,
+     2900,
+     0.22
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "start2",
+   "edition": "classic",
+   "hash": "#city=62&v=3650,2618,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": 62,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": "overview",
+    "ly": [
+     "infra",
+     "resources",
+     "wonders"
+    ],
+    "hide": [],
+    "cam": [
+     3650,
+     2618,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "start3",
+   "edition": "classic",
+   "hash": "#lens=over65&v=3100,2900,0.22",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "over65",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [
+     "infra",
+     "resources",
+     "wonders"
+    ],
+    "hide": [],
+    "cam": [
+     3100,
+     2900,
+     0.22
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "start4",
+   "edition": "classic",
+   "hash": "#ly=infra&hide=station&v=3100,2900,0.22",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [
+     "infra"
+    ],
+    "hide": [
+     "station"
+    ],
+    "cam": [
+     3100,
+     2900,
+     0.22
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e34-01",
+   "edition": "classic",
+   "hash": "#ly=&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     3250,
+     3150,
+     0.12
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e34-01.s1",
+   "edition": "classic",
+   "hash": "#ly=&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     3250,
+     3150,
+     0.12
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e34-01.s2",
+   "edition": "classic",
+   "hash": "#lens=density&ly=&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "density",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     3250,
+     3150,
+     0.12
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e34-02",
+   "edition": "classic",
+   "hash": "#city=62&v=3650,2618,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": 62,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": "overview",
+    "ly": [
+     "infra",
+     "resources",
+     "wonders"
+    ],
+    "hide": [],
+    "cam": [
+     3650,
+     2618,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e34-02.s1",
+   "edition": "classic",
+   "hash": "#city=62&v=3650,2618,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": 62,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": "overview",
+    "ly": [
+     "infra",
+     "resources",
+     "wonders"
+    ],
+    "hide": [],
+    "cam": [
+     3650,
+     2618,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e34-03",
+   "edition": "classic",
+   "hash": "#lens=heritage&ly=wonders&hide=knowledge,national_park&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "heritage",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [
+     "wonders"
+    ],
+    "hide": [
+     "knowledge",
+     "national_park"
+    ],
+    "cam": [
+     3250,
+     3150,
+     0.12
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e34-03.s1",
+   "edition": "classic",
+   "hash": "#lens=heritage&ly=wonders&hide=knowledge,national_park&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "heritage",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [
+     "wonders"
+    ],
+    "hide": [
+     "knowledge",
+     "national_park"
+    ],
+    "cam": [
+     3250,
+     3150,
+     0.12
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e34-03.s2",
+   "edition": "classic",
+   "hash": "#lens=heritage&ly=wonders&hide=knowledge,national_park&city=47&v=4072,3324,0.42",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "heritage",
+    "city": 47,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": "overview",
+    "ly": [
+     "wonders"
+    ],
+    "hide": [
+     "knowledge",
+     "national_park"
+    ],
+    "cam": [
+     4072,
+     3324,
+     0.42
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e34-03.harder",
+   "edition": "classic",
+   "hash": "#lens=heritage&ly=wonders&hide=knowledge&v=3100,2900,0.22",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "heritage",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [
+     "wonders"
+    ],
+    "hide": [
+     "knowledge"
+    ],
+    "cam": [
+     3100,
+     2900,
+     0.22
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e34-04",
+   "edition": "classic",
+   "hash": "#ly=resources&hide=power,dam,mine,industrial,industry,fishport&v=2500,3300,0.24",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [
+     "resources"
+    ],
+    "hide": [
+     "dam",
+     "fishport",
+     "industrial",
+     "industry",
+     "mine",
+     "power"
+    ],
+    "cam": [
+     2500,
+     3300,
+     0.24
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e34-04.s1",
+   "edition": "classic",
+   "hash": "#ly=resources&hide=power,dam,mine,industrial,industry,fishport&v=2500,3300,0.24",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [
+     "resources"
+    ],
+    "hide": [
+     "dam",
+     "fishport",
+     "industrial",
+     "industry",
+     "mine",
+     "power"
+    ],
+    "cam": [
+     2500,
+     3300,
+     0.24
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e34-04.s2",
+   "edition": "classic",
+   "hash": "#route=41-44&ly=trade&hide=export_hub&v=2400,2300,0.2",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": "41-44",
+    "mode": "route",
+    "tab": "overview",
+    "ly": [
+     "trade"
+    ],
+    "hide": [
+     "export_hub"
+    ],
+    "cam": [
+     2400,
+     2300,
+     0.2
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e34-04.s3",
+   "edition": "classic",
+   "hash": "#ly=trade&hide=export_hub&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [
+     "trade"
+    ],
+    "hide": [
+     "export_hub"
+    ],
+    "cam": [
+     3250,
+     3150,
+     0.12
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e34-04.harder",
+   "edition": "classic",
+   "hash": "#ly=infra,trade&hide=lines,station,airport,export_hub&v=3100,2900,0.22",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [
+     "infra",
+     "trade"
+    ],
+    "hide": [
+     "airport",
+     "export_hub",
+     "lines",
+     "station"
+    ],
+    "cam": [
+     3100,
+     2900,
+     0.22
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e56-02",
+   "edition": "classic",
+   "hash": "#ly=&v=5750,1750,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     5750,
+     1750,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e56-02.s1",
+   "edition": "classic",
+   "hash": "#ly=&v=5750,1750,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     5750,
+     1750,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e56-02.s2",
+   "edition": "classic",
+   "hash": "#city=166&ly=&v=5750,1750,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": 166,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     5750,
+     1750,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e56-02.s3",
+   "edition": "classic",
+   "hash": "#ly=&v=5200,2000,0.18",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     5200,
+     2000,
+     0.18
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e56-02.harder",
+   "edition": "classic",
+   "hash": "#ly=&v=1500,1500,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     1500,
+     1500,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e56-03",
+   "edition": "classic",
+   "hash": "#lens=density&ly=&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "density",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     3250,
+     3150,
+     0.12
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e56-03.s1",
+   "edition": "classic",
+   "hash": "#lens=density&ly=&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "density",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     3250,
+     3150,
+     0.12
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e56-03.s2",
+   "edition": "classic",
+   "hash": "#lens=growth&ly=&v=2400,2100,0.26",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "growth",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2400,
+     2100,
+     0.26
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e56-03.s3",
+   "edition": "classic",
+   "hash": "#lens=over65&ly=&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "over65",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     3250,
+     3150,
+     0.12
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e56-03.harder",
+   "edition": "classic",
+   "hash": "#lens=doctors&ly=&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "doctors",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     3250,
+     3150,
+     0.12
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e56-04",
+   "edition": "classic",
+   "hash": "#lens=fiscal&city=25&ly=&v=1861,5692,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "fiscal",
+    "city": 25,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     1861,
+     5692,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e56-04.s1",
+   "edition": "classic",
+   "hash": "#lens=fiscal&city=25&ly=&v=1861,5692,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "fiscal",
+    "city": 25,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     1861,
+     5692,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e56-04.s2",
+   "edition": "classic",
+   "hash": "#lens=density&ly=&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "density",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     3250,
+     3150,
+     0.12
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-01",
+   "edition": "classic",
+   "hash": "#lens=growth&ly=&v=2600,2100,0.22",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "growth",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2600,
+     2100,
+     0.22
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-01.s1",
+   "edition": "classic",
+   "hash": "#lens=growth&ly=&v=2600,2100,0.22",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "growth",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2600,
+     2100,
+     0.22
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-01.s2",
+   "edition": "classic",
+   "hash": "#lens=long_commute&ly=&v=2400,1900,0.34",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "long_commute",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2400,
+     1900,
+     0.34
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-01.s3",
+   "edition": "classic",
+   "hash": "#lens=growth&city=9&ly=&v=2400,2100,0.26",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "growth",
+    "city": 9,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2400,
+     2100,
+     0.26
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-01.harder",
+   "edition": "classic",
+   "hash": "#route=41-44&ly=infra,trade&hide=station,airport,trade_port,export_hub&v=2300,2250,0.24",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": "41-44",
+    "mode": "route",
+    "tab": "overview",
+    "ly": [
+     "infra",
+     "trade"
+    ],
+    "hide": [
+     "airport",
+     "export_hub",
+     "station",
+     "trade_port"
+    ],
+    "cam": [
+     2300,
+     2250,
+     0.24
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-02",
+   "edition": "classic",
+   "hash": "#lens=manufacturing_share&ly=resources,infra&hide=power,dam,mine,fishport,farm,lines,station,airport&v=3400,3700,0.22",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "manufacturing_share",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [
+     "infra",
+     "resources"
+    ],
+    "hide": [
+     "airport",
+     "dam",
+     "farm",
+     "fishport",
+     "lines",
+     "mine",
+     "power",
+     "station"
+    ],
+    "cam": [
+     3400,
+     3700,
+     0.22
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-02.s1",
+   "edition": "classic",
+   "hash": "#lens=manufacturing_share&ly=resources,infra&hide=power,dam,mine,fishport,farm,lines,station,airport&v=3400,3700,0.22",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "manufacturing_share",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [
+     "infra",
+     "resources"
+    ],
+    "hide": [
+     "airport",
+     "dam",
+     "farm",
+     "fishport",
+     "lines",
+     "mine",
+     "power",
+     "station"
+    ],
+    "cam": [
+     3400,
+     3700,
+     0.22
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-02.s2",
+   "edition": "classic",
+   "hash": "#lens=manufacturing_share&ly=resources,infra&hide=power,dam,mine,fishport,farm,lines,station,airport&city=12&tab=infra&v=4000,3600,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "manufacturing_share",
+    "city": 12,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": "infra",
+    "ly": [
+     "infra",
+     "resources"
+    ],
+    "hide": [
+     "airport",
+     "dam",
+     "farm",
+     "fishport",
+     "lines",
+     "mine",
+     "power",
+     "station"
+    ],
+    "cam": [
+     4000,
+     3600,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-02.s3",
+   "edition": "classic",
+   "hash": "#lens=growth&ly=resources&hide=power,dam,mine,fishport,farm,industry&v=3400,3700,0.22",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "growth",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [
+     "resources"
+    ],
+    "hide": [
+     "dam",
+     "farm",
+     "fishport",
+     "industry",
+     "mine",
+     "power"
+    ],
+    "cam": [
+     3400,
+     3700,
+     0.22
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-02.harder",
+   "edition": "classic",
+   "hash": "#lens=growth&city=61&ly=resources,infra&hide=power,dam,mine,fishport,farm,lines,station,airport&v=2900,4300,0.34",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "growth",
+    "city": 61,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": "overview",
+    "ly": [
+     "infra",
+     "resources"
+    ],
+    "hide": [
+     "airport",
+     "dam",
+     "farm",
+     "fishport",
+     "lines",
+     "mine",
+     "power",
+     "station"
+    ],
+    "cam": [
+     2900,
+     4300,
+     0.34
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-03",
+   "edition": "classic",
+   "hash": "#lens=gdp_pc&city=42&tab=econ&ly=&v=2900,3600,0.16",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "gdp_pc",
+    "city": 42,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": "econ",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2900,
+     3600,
+     0.16
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-03.s1",
+   "edition": "classic",
+   "hash": "#lens=gdp_pc&city=42&tab=econ&ly=&v=2900,3600,0.16",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "gdp_pc",
+    "city": 42,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": "econ",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2900,
+     3600,
+     0.16
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-03.s2",
+   "edition": "classic",
+   "hash": "#lens=wage&ly=&v=2900,3000,0.14",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "wage",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2900,
+     3000,
+     0.14
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-03.s3",
+   "edition": "classic",
+   "hash": "#lens=wage&city=30&tab=econ&ly=&v=2494,2674,0.26",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "wage",
+    "city": 30,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": "econ",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2494,
+     2674,
+     0.26
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-03.harder",
+   "edition": "classic",
+   "hash": "#lens=wage&state=11&ly=&v=2282,1652,0.4",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "wage",
+    "city": null,
+    "state": "11",
+    "item": null,
+    "route": null,
+    "mode": "state",
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2282,
+     1652,
+     0.4
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-04",
+   "edition": "classic",
+   "hash": "#lens=density&ly=resources&hide=dam,mine,industrial,industry,fishport,farm&v=3100,2900,0.22",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "density",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [
+     "resources"
+    ],
+    "hide": [
+     "dam",
+     "farm",
+     "fishport",
+     "industrial",
+     "industry",
+     "mine"
+    ],
+    "cam": [
+     3100,
+     2900,
+     0.22
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-04.s1",
+   "edition": "classic",
+   "hash": "#lens=density&ly=resources&hide=dam,mine,industrial,industry,fishport,farm&v=3100,2900,0.22",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "density",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [
+     "resources"
+    ],
+    "hide": [
+     "dam",
+     "farm",
+     "fishport",
+     "industrial",
+     "industry",
+     "mine"
+    ],
+    "cam": [
+     3100,
+     2900,
+     0.22
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-04.s2",
+   "edition": "classic",
+   "hash": "#lens=density&ly=resources&hide=dam,mine,industrial,industry,fishport,farm&city=58&v=2100,2500,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "density",
+    "city": 58,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": "overview",
+    "ly": [
+     "resources"
+    ],
+    "hide": [
+     "dam",
+     "farm",
+     "fishport",
+     "industrial",
+     "industry",
+     "mine"
+    ],
+    "cam": [
+     2100,
+     2500,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-04.s3",
+   "edition": "classic",
+   "hash": "#lens=density&ly=resources&hide=dam,mine,industrial,industry,fishport,farm&v=2300,3900,0.22",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "density",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [
+     "resources"
+    ],
+    "hide": [
+     "dam",
+     "farm",
+     "fishport",
+     "industrial",
+     "industry",
+     "mine"
+    ],
+    "cam": [
+     2300,
+     3900,
+     0.22
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-04.harder",
+   "edition": "classic",
+   "hash": "#city=115&tab=econ&ly=resources&hide=dam,mine,industrial,industry,fishport,farm&v=4164,2254,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": 115,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": "econ",
+    "ly": [
+     "resources"
+    ],
+    "hide": [
+     "dam",
+     "farm",
+     "fishport",
+     "industrial",
+     "industry",
+     "mine"
+    ],
+    "cam": [
+     4164,
+     2254,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-05",
+   "edition": "classic",
+   "hash": "#lens=fiscal&city=62&tab=econ&ly=&v=3650,2618,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "fiscal",
+    "city": 62,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": "econ",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     3650,
+     2618,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-05.s1",
+   "edition": "classic",
+   "hash": "#lens=fiscal&city=62&tab=econ&ly=&v=3650,2618,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "fiscal",
+    "city": 62,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": "econ",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     3650,
+     2618,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-05.s2",
+   "edition": "classic",
+   "hash": "#lens=doctors&city=62&ly=&v=3650,2618,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "doctors",
+    "city": 62,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     3650,
+     2618,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-01",
+   "edition": "classic",
+   "hash": "#lens=wage&city=30&tab=econ&ly=&v=2494,2674,0.26",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "wage",
+    "city": 30,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": "econ",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2494,
+     2674,
+     0.26
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-01.s1",
+   "edition": "classic",
+   "hash": "#lens=wage&city=30&tab=econ&ly=&v=2494,2674,0.26",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "wage",
+    "city": 30,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": "econ",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2494,
+     2674,
+     0.26
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-01.s2",
+   "edition": "classic",
+   "hash": "#lens=long_commute&city=52&ly=&v=3767,1429,0.26",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "long_commute",
+    "city": 52,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     3767,
+     1429,
+     0.26
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-01.s3",
+   "edition": "classic",
+   "hash": "#lens=doctors&state=11&ly=&v=2282,1652,0.4",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "doctors",
+    "city": null,
+    "state": "11",
+    "item": null,
+    "route": null,
+    "mode": "state",
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2282,
+     1652,
+     0.4
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-01.harder",
+   "edition": "classic",
+   "hash": "#lens=owner&city=9&ly=&v=2273,1975,0.26",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "owner",
+    "city": 9,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2273,
+     1975,
+     0.26
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-02",
+   "edition": "classic",
+   "hash": "#lens=doctors&state=11&ly=&v=2282,1652,0.4",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "doctors",
+    "city": null,
+    "state": "11",
+    "item": null,
+    "route": null,
+    "mode": "state",
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2282,
+     1652,
+     0.4
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-02.s1",
+   "edition": "classic",
+   "hash": "#lens=doctors&state=11&ly=&v=2282,1652,0.4",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "doctors",
+    "city": null,
+    "state": "11",
+    "item": null,
+    "route": null,
+    "mode": "state",
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2282,
+     1652,
+     0.4
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-02.s2",
+   "edition": "classic",
+   "hash": "#lens=doctors&city=165&ly=&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "doctors",
+    "city": 165,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     3250,
+     3150,
+     0.12
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-02.s3",
+   "edition": "classic",
+   "hash": "#lens=fiscal&state=11&ly=&v=2282,1652,0.4",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "fiscal",
+    "city": null,
+    "state": "11",
+    "item": null,
+    "route": null,
+    "mode": "state",
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2282,
+     1652,
+     0.4
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-02.harder",
+   "edition": "classic",
+   "hash": "#lens=doctors&state=26&ly=&v=3940,3962,0.4",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "doctors",
+    "city": null,
+    "state": "26",
+    "item": null,
+    "route": null,
+    "mode": "state",
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     3940,
+     3962,
+     0.4
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-03",
+   "edition": "classic",
+   "hash": "#city=9&tab=econ&ly=resources&hide=power,dam,mine,fishport,farm&v=2400,2200,0.24",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": 9,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": "econ",
+    "ly": [
+     "resources"
+    ],
+    "hide": [
+     "dam",
+     "farm",
+     "fishport",
+     "mine",
+     "power"
+    ],
+    "cam": [
+     2400,
+     2200,
+     0.24
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-03.s1",
+   "edition": "classic",
+   "hash": "#city=9&tab=econ&ly=resources&hide=power,dam,mine,fishport,farm&v=2400,2200,0.24",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": 9,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": "econ",
+    "ly": [
+     "resources"
+    ],
+    "hide": [
+     "dam",
+     "farm",
+     "fishport",
+     "mine",
+     "power"
+    ],
+    "cam": [
+     2400,
+     2200,
+     0.24
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-03.s2",
+   "edition": "classic",
+   "hash": "#city=28&tab=econ&ly=resources&hide=power,dam,mine,fishport,farm&v=3382,3050,0.24",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": 28,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": "econ",
+    "ly": [
+     "resources"
+    ],
+    "hide": [
+     "dam",
+     "farm",
+     "fishport",
+     "mine",
+     "power"
+    ],
+    "cam": [
+     3382,
+     3050,
+     0.24
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-03.s3",
+   "edition": "classic",
+   "hash": "#city=115&tab=econ&ly=resources&hide=dam,mine,fishport,farm&v=4164,2254,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": 115,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": "econ",
+    "ly": [
+     "resources"
+    ],
+    "hide": [
+     "dam",
+     "farm",
+     "fishport",
+     "mine"
+    ],
+    "cam": [
+     4164,
+     2254,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-03.harder",
+   "edition": "classic",
+   "hash": "#city=48&tab=econ&ly=resources&hide=power,dam,mine,fishport,farm&v=3700,4100,0.26",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": 48,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": "econ",
+    "ly": [
+     "resources"
+    ],
+    "hide": [
+     "dam",
+     "farm",
+     "fishport",
+     "mine",
+     "power"
+    ],
+    "cam": [
+     3700,
+     4100,
+     0.26
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-04",
+   "edition": "classic",
+   "hash": "#lens=single&city=30&ly=&v=2494,2674,0.26",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "single",
+    "city": 30,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2494,
+     2674,
+     0.26
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-04.s1",
+   "edition": "classic",
+   "hash": "#lens=over65&city=161&ly=&v=3581,3002,0.26",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "over65",
+    "city": 161,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     3581,
+     3002,
+     0.26
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-04.s2",
+   "edition": "classic",
+   "hash": "#lens=single&state=11&ly=&v=2282,1652,0.4",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "single",
+    "city": null,
+    "state": "11",
+    "item": null,
+    "route": null,
+    "mode": "state",
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2282,
+     1652,
+     0.4
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-04.s3",
+   "edition": "classic",
+   "hash": "#lens=foreign&city=19&ly=&v=2152,1882,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "foreign",
+    "city": 19,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2152,
+     1882,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-04.harder",
+   "edition": "classic",
+   "hash": "#lens=fertility&ly=&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "fertility",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     3250,
+     3150,
+     0.12
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-05",
+   "edition": "classic",
+   "hash": "#state=12&ly=&v=2165,4262,0.2",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": "12",
+    "item": null,
+    "route": null,
+    "mode": "state",
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2165,
+     4262,
+     0.2
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-05.s1",
+   "edition": "classic",
+   "hash": "#state=12&ly=&v=2165,4262,0.2",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": "12",
+    "item": null,
+    "route": null,
+    "mode": "state",
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2165,
+     4262,
+     0.2
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-05.s2",
+   "edition": "classic",
+   "hash": "#lens=fiscal&city=25&ly=&v=1861,5692,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "fiscal",
+    "city": 25,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     1861,
+     5692,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-05.s3",
+   "edition": "classic",
+   "hash": "#city=166&tab=econ&ly=&v=5000,1800,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": 166,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": "econ",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     5000,
+     1800,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "q-01",
+   "edition": "classic",
+   "hash": "#lens=over65&ly=&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "over65",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     3250,
+     3150,
+     0.12
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "q-02",
+   "edition": "classic",
+   "hash": "#ly=trade&hide=export_hub&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [
+     "trade"
+    ],
+    "hide": [
+     "export_hub"
+    ],
+    "cam": [
+     3250,
+     3150,
+     0.12
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "q-03",
+   "edition": "classic",
+   "hash": "#lens=gdp_pc&report=1&ly=&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "gdp_pc",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "nation",
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     3250,
+     3150,
+     0.12
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "q-04",
+   "edition": "classic",
+   "hash": "#city=31&ly=&v=2304,2403,0.26",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": 31,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2304,
+     2403,
+     0.26
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "q-05",
+   "edition": "classic",
+   "hash": "#lens=fiscal&ly=&v=2300,4800,0.16",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "fiscal",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2300,
+     4800,
+     0.16
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "q-06",
+   "edition": "classic",
+   "hash": "#lens=over65&ly=&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "over65",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     3250,
+     3150,
+     0.12
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "q-07",
+   "edition": "classic",
+   "hash": "#ly=wonders&hide=knowledge,national_park&city=47&v=4072,3324,0.42",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": 47,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": "overview",
+    "ly": [
+     "wonders"
+    ],
+    "hide": [
+     "knowledge",
+     "national_park"
+    ],
+    "cam": [
+     4072,
+     3324,
+     0.42
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "q-08",
+   "edition": "classic",
+   "hash": "#lens=wage&state=11&ly=&v=2282,1652,0.4",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "wage",
+    "city": null,
+    "state": "11",
+    "item": null,
+    "route": null,
+    "mode": "state",
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2282,
+     1652,
+     0.4
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "q-09",
+   "edition": "classic",
+   "hash": "#lens=growth&ly=&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "growth",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     3250,
+     3150,
+     0.12
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "p-01",
+   "edition": "classic",
+   "hash": "#report=1&ly=&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "nation",
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     3250,
+     3150,
+     0.12
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "p-02",
+   "edition": "classic",
+   "hash": "#lens=gdp_pc&ly=&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "gdp_pc",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     3250,
+     3150,
+     0.12
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "p-03",
+   "edition": "classic",
+   "hash": "#city=18&ly=&v=2375,3356,0.26",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": 18,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2375,
+     3356,
+     0.26
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "p-04",
+   "edition": "classic",
+   "hash": "#lens=fertility&ly=&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "fertility",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     3250,
+     3150,
+     0.12
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "p-05",
+   "edition": "classic",
+   "hash": "#lens=doctors&state=11&ly=&v=2282,1652,0.4",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "doctors",
+    "city": null,
+    "state": "11",
+    "item": null,
+    "route": null,
+    "mode": "state",
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2282,
+     1652,
+     0.4
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "p-06",
+   "edition": "classic",
+   "hash": "#lens=density&ly=resources&hide=dam,mine,industrial,industry,fishport,farm&v=3100,2900,0.22",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "density",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": "overview",
+    "ly": [
+     "resources"
+    ],
+    "hide": [
+     "dam",
+     "farm",
+     "fishport",
+     "industrial",
+     "industry",
+     "mine"
+    ],
+    "cam": [
+     3100,
+     2900,
+     0.22
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "p-07",
+   "edition": "classic",
+   "hash": "#city=50&ly=&v=4050,3600,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": 50,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": "overview",
+    "ly": [],
+    "hide": [],
+    "cam": [
+     4050,
+     3600,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "p-08",
+   "edition": "classic",
+   "hash": "#route=41-44&ly=infra,trade&hide=lines,station,airport&v=3100,2900,0.22",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": "41-44",
+    "mode": "route",
+    "tab": "overview",
+    "ly": [
+     "infra",
+     "trade"
+    ],
+    "hide": [
+     "airport",
+     "lines",
+     "station"
+    ],
+    "cam": [
+     3100,
+     2900,
+     0.22
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "start1",
+   "edition": "yeojido",
+   "hash": "#v=3100,2900,0.22",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [
+     "infra",
+     "resources",
+     "wonders"
+    ],
+    "hide": [],
+    "cam": [
+     3100,
+     2900,
+     0.22
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "start2",
+   "edition": "yeojido",
+   "hash": "#city=62&v=3650,2618,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": 62,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": null,
+    "ly": [
+     "infra",
+     "resources",
+     "wonders"
+    ],
+    "hide": [],
+    "cam": [
+     3650,
+     2618,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "start3",
+   "edition": "yeojido",
+   "hash": "#lens=over65&v=3100,2900,0.22",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "over65",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [
+     "infra",
+     "resources",
+     "wonders"
+    ],
+    "hide": [],
+    "cam": [
+     3100,
+     2900,
+     0.22
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "start4",
+   "edition": "yeojido",
+   "hash": "#ly=infra&hide=station&v=3100,2900,0.22",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [
+     "infra"
+    ],
+    "hide": [
+     "station"
+    ],
+    "cam": [
+     3100,
+     2900,
+     0.22
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e34-01",
+   "edition": "yeojido",
+   "hash": "#ly=&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2934,
+     3269,
+     0.119
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e34-01.s1",
+   "edition": "yeojido",
+   "hash": "#ly=&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2934,
+     3269,
+     0.119
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e34-01.s2",
+   "edition": "yeojido",
+   "hash": "#lens=density&ly=&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "density",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2934,
+     3269,
+     0.119
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e34-02",
+   "edition": "yeojido",
+   "hash": "#city=62&v=3650,2618,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": 62,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": null,
+    "ly": [
+     "infra",
+     "resources",
+     "wonders"
+    ],
+    "hide": [],
+    "cam": [
+     3650,
+     2618,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e34-02.s1",
+   "edition": "yeojido",
+   "hash": "#city=62&v=3650,2618,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": 62,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": null,
+    "ly": [
+     "infra",
+     "resources",
+     "wonders"
+    ],
+    "hide": [],
+    "cam": [
+     3650,
+     2618,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e34-03",
+   "edition": "yeojido",
+   "hash": "#lens=heritage&ly=wonders&hide=knowledge,national_park&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "heritage",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [
+     "wonders"
+    ],
+    "hide": [
+     "knowledge",
+     "national_park"
+    ],
+    "cam": [
+     2934,
+     3269,
+     0.119
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e34-03.s1",
+   "edition": "yeojido",
+   "hash": "#lens=heritage&ly=wonders&hide=knowledge,national_park&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "heritage",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [
+     "wonders"
+    ],
+    "hide": [
+     "knowledge",
+     "national_park"
+    ],
+    "cam": [
+     2934,
+     3269,
+     0.119
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e34-03.s2",
+   "edition": "yeojido",
+   "hash": "#lens=heritage&ly=wonders&hide=knowledge,national_park&city=47&v=4072,3324,0.42",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "heritage",
+    "city": 47,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": null,
+    "ly": [
+     "wonders"
+    ],
+    "hide": [
+     "knowledge",
+     "national_park"
+    ],
+    "cam": [
+     4072,
+     3324,
+     0.42
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e34-03.harder",
+   "edition": "yeojido",
+   "hash": "#lens=heritage&ly=wonders&hide=knowledge&v=3100,2900,0.22",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "heritage",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [
+     "wonders"
+    ],
+    "hide": [
+     "knowledge"
+    ],
+    "cam": [
+     3100,
+     2900,
+     0.22
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e34-04",
+   "edition": "yeojido",
+   "hash": "#ly=resources&hide=power,dam,mine,industrial,industry,fishport&v=2500,3300,0.24",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [
+     "resources"
+    ],
+    "hide": [
+     "dam",
+     "fishport",
+     "industrial",
+     "industry",
+     "mine",
+     "power"
+    ],
+    "cam": [
+     2500,
+     3300,
+     0.24
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e34-04.s1",
+   "edition": "yeojido",
+   "hash": "#ly=resources&hide=power,dam,mine,industrial,industry,fishport&v=2500,3300,0.24",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [
+     "resources"
+    ],
+    "hide": [
+     "dam",
+     "fishport",
+     "industrial",
+     "industry",
+     "mine",
+     "power"
+    ],
+    "cam": [
+     2500,
+     3300,
+     0.24
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e34-04.s2",
+   "edition": "yeojido",
+   "hash": "#route=41-44&ly=trade&hide=export_hub&v=2400,2300,0.2",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": "41-44",
+    "mode": "route",
+    "tab": null,
+    "ly": [
+     "trade"
+    ],
+    "hide": [
+     "export_hub"
+    ],
+    "cam": [
+     2400,
+     2300,
+     0.2
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e34-04.s3",
+   "edition": "yeojido",
+   "hash": "#ly=trade&hide=export_hub&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [
+     "trade"
+    ],
+    "hide": [
+     "export_hub"
+    ],
+    "cam": [
+     2934,
+     3269,
+     0.119
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e34-04.harder",
+   "edition": "yeojido",
+   "hash": "#ly=infra,trade&hide=lines,station,airport,export_hub&v=3100,2900,0.22",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [
+     "infra",
+     "trade"
+    ],
+    "hide": [
+     "airport",
+     "export_hub",
+     "lines",
+     "station"
+    ],
+    "cam": [
+     3100,
+     2900,
+     0.22
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e56-01",
+   "edition": "yeojido",
+   "hash": "#ly=&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2934,
+     3269,
+     0.119
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e56-01.s1",
+   "edition": "yeojido",
+   "hash": "#ly=&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2934,
+     3269,
+     0.119
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e56-01.s2",
+   "edition": "yeojido",
+   "hash": "#ly=&v=3250,2100,0.45",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     3250,
+     2100,
+     0.45
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e56-01.harder",
+   "edition": "yeojido",
+   "hash": "#ly=wonders&hide=world_heritage,heritage_cluster,knowledge&v=3100,2900,0.22",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [
+     "wonders"
+    ],
+    "hide": [
+     "heritage_cluster",
+     "knowledge",
+     "world_heritage"
+    ],
+    "cam": [
+     3100,
+     2900,
+     0.22
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e56-02",
+   "edition": "yeojido",
+   "hash": "#ly=&v=5750,1750,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     5750,
+     1750,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e56-02.s1",
+   "edition": "yeojido",
+   "hash": "#ly=&v=5750,1750,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     5750,
+     1750,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e56-02.s2",
+   "edition": "yeojido",
+   "hash": "#city=166&ly=&v=5750,1750,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": 166,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     5750,
+     1750,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e56-02.s3",
+   "edition": "yeojido",
+   "hash": "#ly=&v=5200,2000,0.18",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     5200,
+     2000,
+     0.18
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e56-02.harder",
+   "edition": "yeojido",
+   "hash": "#ly=&v=1500,1500,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     1500,
+     1500,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e56-03",
+   "edition": "yeojido",
+   "hash": "#lens=density&ly=&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "density",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2934,
+     3269,
+     0.119
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e56-03.s1",
+   "edition": "yeojido",
+   "hash": "#lens=density&ly=&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "density",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2934,
+     3269,
+     0.119
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e56-03.s2",
+   "edition": "yeojido",
+   "hash": "#lens=growth&ly=&v=2400,2100,0.26",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "growth",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2400,
+     2100,
+     0.26
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e56-03.s3",
+   "edition": "yeojido",
+   "hash": "#lens=over65&ly=&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "over65",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2934,
+     3269,
+     0.119
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e56-03.harder",
+   "edition": "yeojido",
+   "hash": "#lens=doctors&ly=&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "doctors",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2934,
+     3269,
+     0.119
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e56-04",
+   "edition": "yeojido",
+   "hash": "#lens=fiscal&city=25&ly=&v=1861,5692,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "fiscal",
+    "city": 25,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     1861,
+     5692,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e56-04.s1",
+   "edition": "yeojido",
+   "hash": "#lens=fiscal&city=25&ly=&v=1861,5692,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "fiscal",
+    "city": 25,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     1861,
+     5692,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "e56-04.s2",
+   "edition": "yeojido",
+   "hash": "#lens=density&ly=&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "density",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2934,
+     3269,
+     0.119
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-01",
+   "edition": "yeojido",
+   "hash": "#lens=growth&ly=&v=2600,2100,0.22",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "growth",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2600,
+     2100,
+     0.22
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-01.s1",
+   "edition": "yeojido",
+   "hash": "#lens=growth&ly=&v=2600,2100,0.22",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "growth",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2600,
+     2100,
+     0.22
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-01.s2",
+   "edition": "yeojido",
+   "hash": "#lens=long_commute&ly=&v=2400,1900,0.34",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "long_commute",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2400,
+     1900,
+     0.34
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-01.s3",
+   "edition": "yeojido",
+   "hash": "#lens=growth&city=9&ly=&v=2400,2100,0.26",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "growth",
+    "city": 9,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2400,
+     2100,
+     0.26
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-01.harder",
+   "edition": "yeojido",
+   "hash": "#route=41-44&ly=infra,trade&hide=station,airport,trade_port,export_hub&v=2300,2250,0.24",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": "41-44",
+    "mode": "route",
+    "tab": null,
+    "ly": [
+     "infra",
+     "trade"
+    ],
+    "hide": [
+     "airport",
+     "export_hub",
+     "station",
+     "trade_port"
+    ],
+    "cam": [
+     2300,
+     2250,
+     0.24
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-02",
+   "edition": "yeojido",
+   "hash": "#lens=manufacturing_share&ly=resources,infra&hide=power,dam,mine,fishport,farm,lines,station,airport&v=3400,3700,0.22",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "manufacturing_share",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [
+     "infra",
+     "resources"
+    ],
+    "hide": [
+     "airport",
+     "dam",
+     "farm",
+     "fishport",
+     "lines",
+     "mine",
+     "power",
+     "station"
+    ],
+    "cam": [
+     3400,
+     3700,
+     0.22
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-02.s1",
+   "edition": "yeojido",
+   "hash": "#lens=manufacturing_share&ly=resources,infra&hide=power,dam,mine,fishport,farm,lines,station,airport&v=3400,3700,0.22",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "manufacturing_share",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [
+     "infra",
+     "resources"
+    ],
+    "hide": [
+     "airport",
+     "dam",
+     "farm",
+     "fishport",
+     "lines",
+     "mine",
+     "power",
+     "station"
+    ],
+    "cam": [
+     3400,
+     3700,
+     0.22
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-02.s2",
+   "edition": "yeojido",
+   "hash": "#lens=manufacturing_share&ly=resources,infra&hide=power,dam,mine,fishport,farm,lines,station,airport&city=12&tab=infra&v=4000,3600,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "manufacturing_share",
+    "city": 12,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": null,
+    "ly": [
+     "infra",
+     "resources"
+    ],
+    "hide": [
+     "airport",
+     "dam",
+     "farm",
+     "fishport",
+     "lines",
+     "mine",
+     "power",
+     "station"
+    ],
+    "cam": [
+     4000,
+     3600,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-02.s3",
+   "edition": "yeojido",
+   "hash": "#lens=growth&ly=resources&hide=power,dam,mine,fishport,farm,industry&v=3400,3700,0.22",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "growth",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [
+     "resources"
+    ],
+    "hide": [
+     "dam",
+     "farm",
+     "fishport",
+     "industry",
+     "mine",
+     "power"
+    ],
+    "cam": [
+     3400,
+     3700,
+     0.22
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-02.harder",
+   "edition": "yeojido",
+   "hash": "#lens=growth&city=61&ly=resources,infra&hide=power,dam,mine,fishport,farm,lines,station,airport&v=2900,4300,0.34",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "growth",
+    "city": 61,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": null,
+    "ly": [
+     "infra",
+     "resources"
+    ],
+    "hide": [
+     "airport",
+     "dam",
+     "farm",
+     "fishport",
+     "lines",
+     "mine",
+     "power",
+     "station"
+    ],
+    "cam": [
+     2900,
+     4300,
+     0.34
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-03",
+   "edition": "yeojido",
+   "hash": "#lens=gdp_pc&city=42&tab=econ&ly=&v=2900,3600,0.16",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "gdp_pc",
+    "city": 42,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2900,
+     3600,
+     0.16
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-03.s1",
+   "edition": "yeojido",
+   "hash": "#lens=gdp_pc&city=42&tab=econ&ly=&v=2900,3600,0.16",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "gdp_pc",
+    "city": 42,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2900,
+     3600,
+     0.16
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-03.s2",
+   "edition": "yeojido",
+   "hash": "#lens=wage&ly=&v=2900,3000,0.14",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "wage",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2900,
+     3000,
+     0.14
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-03.s3",
+   "edition": "yeojido",
+   "hash": "#lens=wage&city=30&tab=econ&ly=&v=2494,2674,0.26",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "wage",
+    "city": 30,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2494,
+     2674,
+     0.26
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-03.harder",
+   "edition": "yeojido",
+   "hash": "#lens=wage&state=11&ly=&v=2282,1652,0.4",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "wage",
+    "city": null,
+    "state": "11",
+    "item": null,
+    "route": null,
+    "mode": "state",
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2282,
+     1652,
+     0.4
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-04",
+   "edition": "yeojido",
+   "hash": "#lens=density&ly=resources&hide=dam,mine,industrial,industry,fishport,farm&v=3100,2900,0.22",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "density",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [
+     "resources"
+    ],
+    "hide": [
+     "dam",
+     "farm",
+     "fishport",
+     "industrial",
+     "industry",
+     "mine"
+    ],
+    "cam": [
+     3100,
+     2900,
+     0.22
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-04.s1",
+   "edition": "yeojido",
+   "hash": "#lens=density&ly=resources&hide=dam,mine,industrial,industry,fishport,farm&v=3100,2900,0.22",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "density",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [
+     "resources"
+    ],
+    "hide": [
+     "dam",
+     "farm",
+     "fishport",
+     "industrial",
+     "industry",
+     "mine"
+    ],
+    "cam": [
+     3100,
+     2900,
+     0.22
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-04.s2",
+   "edition": "yeojido",
+   "hash": "#lens=density&ly=resources&hide=dam,mine,industrial,industry,fishport,farm&city=58&v=2100,2500,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "density",
+    "city": 58,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": null,
+    "ly": [
+     "resources"
+    ],
+    "hide": [
+     "dam",
+     "farm",
+     "fishport",
+     "industrial",
+     "industry",
+     "mine"
+    ],
+    "cam": [
+     2100,
+     2500,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-04.s3",
+   "edition": "yeojido",
+   "hash": "#lens=density&ly=resources&hide=dam,mine,industrial,industry,fishport,farm&v=2300,3900,0.22",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "density",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [
+     "resources"
+    ],
+    "hide": [
+     "dam",
+     "farm",
+     "fishport",
+     "industrial",
+     "industry",
+     "mine"
+    ],
+    "cam": [
+     2300,
+     3900,
+     0.22
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-04.harder",
+   "edition": "yeojido",
+   "hash": "#city=115&tab=econ&ly=resources&hide=dam,mine,industrial,industry,fishport,farm&v=4164,2254,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": 115,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": null,
+    "ly": [
+     "resources"
+    ],
+    "hide": [
+     "dam",
+     "farm",
+     "fishport",
+     "industrial",
+     "industry",
+     "mine"
+    ],
+    "cam": [
+     4164,
+     2254,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-05",
+   "edition": "yeojido",
+   "hash": "#lens=fiscal&city=62&tab=econ&ly=&v=3650,2618,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "fiscal",
+    "city": 62,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     3650,
+     2618,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-05.s1",
+   "edition": "yeojido",
+   "hash": "#lens=fiscal&city=62&tab=econ&ly=&v=3650,2618,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "fiscal",
+    "city": 62,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     3650,
+     2618,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "m-05.s2",
+   "edition": "yeojido",
+   "hash": "#lens=doctors&city=62&ly=&v=3650,2618,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "doctors",
+    "city": 62,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     3650,
+     2618,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-01",
+   "edition": "yeojido",
+   "hash": "#lens=wage&city=30&tab=econ&ly=&v=2494,2674,0.26",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "wage",
+    "city": 30,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2494,
+     2674,
+     0.26
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-01.s1",
+   "edition": "yeojido",
+   "hash": "#lens=wage&city=30&tab=econ&ly=&v=2494,2674,0.26",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "wage",
+    "city": 30,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2494,
+     2674,
+     0.26
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-01.s2",
+   "edition": "yeojido",
+   "hash": "#lens=long_commute&city=52&ly=&v=3767,1429,0.26",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "long_commute",
+    "city": 52,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     3767,
+     1429,
+     0.26
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-01.s3",
+   "edition": "yeojido",
+   "hash": "#lens=doctors&state=11&ly=&v=2282,1652,0.4",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "doctors",
+    "city": null,
+    "state": "11",
+    "item": null,
+    "route": null,
+    "mode": "state",
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2282,
+     1652,
+     0.4
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-01.harder",
+   "edition": "yeojido",
+   "hash": "#lens=owner&city=9&ly=&v=2273,1975,0.26",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "owner",
+    "city": 9,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2273,
+     1975,
+     0.26
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-02",
+   "edition": "yeojido",
+   "hash": "#lens=doctors&state=11&ly=&v=2282,1652,0.4",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "doctors",
+    "city": null,
+    "state": "11",
+    "item": null,
+    "route": null,
+    "mode": "state",
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2282,
+     1652,
+     0.4
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-02.s1",
+   "edition": "yeojido",
+   "hash": "#lens=doctors&state=11&ly=&v=2282,1652,0.4",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "doctors",
+    "city": null,
+    "state": "11",
+    "item": null,
+    "route": null,
+    "mode": "state",
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2282,
+     1652,
+     0.4
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-02.s2",
+   "edition": "yeojido",
+   "hash": "#lens=doctors&city=165&ly=&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "doctors",
+    "city": 165,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2934,
+     3269,
+     0.119
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-02.s3",
+   "edition": "yeojido",
+   "hash": "#lens=fiscal&state=11&ly=&v=2282,1652,0.4",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "fiscal",
+    "city": null,
+    "state": "11",
+    "item": null,
+    "route": null,
+    "mode": "state",
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2282,
+     1652,
+     0.4
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-02.harder",
+   "edition": "yeojido",
+   "hash": "#lens=doctors&state=26&ly=&v=3940,3962,0.4",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "doctors",
+    "city": null,
+    "state": "26",
+    "item": null,
+    "route": null,
+    "mode": "state",
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     3940,
+     3962,
+     0.4
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-03",
+   "edition": "yeojido",
+   "hash": "#city=9&tab=econ&ly=resources&hide=power,dam,mine,fishport,farm&v=2400,2200,0.24",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": 9,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": null,
+    "ly": [
+     "resources"
+    ],
+    "hide": [
+     "dam",
+     "farm",
+     "fishport",
+     "mine",
+     "power"
+    ],
+    "cam": [
+     2400,
+     2200,
+     0.24
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-03.s1",
+   "edition": "yeojido",
+   "hash": "#city=9&tab=econ&ly=resources&hide=power,dam,mine,fishport,farm&v=2400,2200,0.24",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": 9,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": null,
+    "ly": [
+     "resources"
+    ],
+    "hide": [
+     "dam",
+     "farm",
+     "fishport",
+     "mine",
+     "power"
+    ],
+    "cam": [
+     2400,
+     2200,
+     0.24
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-03.s2",
+   "edition": "yeojido",
+   "hash": "#city=28&tab=econ&ly=resources&hide=power,dam,mine,fishport,farm&v=3382,3050,0.24",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": 28,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": null,
+    "ly": [
+     "resources"
+    ],
+    "hide": [
+     "dam",
+     "farm",
+     "fishport",
+     "mine",
+     "power"
+    ],
+    "cam": [
+     3382,
+     3050,
+     0.24
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-03.s3",
+   "edition": "yeojido",
+   "hash": "#city=115&tab=econ&ly=resources&hide=dam,mine,fishport,farm&v=4164,2254,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": 115,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": null,
+    "ly": [
+     "resources"
+    ],
+    "hide": [
+     "dam",
+     "farm",
+     "fishport",
+     "mine"
+    ],
+    "cam": [
+     4164,
+     2254,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-03.harder",
+   "edition": "yeojido",
+   "hash": "#city=48&tab=econ&ly=resources&hide=power,dam,mine,fishport,farm&v=3700,4100,0.26",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": 48,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": null,
+    "ly": [
+     "resources"
+    ],
+    "hide": [
+     "dam",
+     "farm",
+     "fishport",
+     "mine",
+     "power"
+    ],
+    "cam": [
+     3700,
+     4100,
+     0.26
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-04",
+   "edition": "yeojido",
+   "hash": "#lens=single&city=30&ly=&v=2494,2674,0.26",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "single",
+    "city": 30,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2494,
+     2674,
+     0.26
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-04.s1",
+   "edition": "yeojido",
+   "hash": "#lens=over65&city=161&ly=&v=3581,3002,0.26",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "over65",
+    "city": 161,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     3581,
+     3002,
+     0.26
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-04.s2",
+   "edition": "yeojido",
+   "hash": "#lens=single&state=11&ly=&v=2282,1652,0.4",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "single",
+    "city": null,
+    "state": "11",
+    "item": null,
+    "route": null,
+    "mode": "state",
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2282,
+     1652,
+     0.4
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-04.s3",
+   "edition": "yeojido",
+   "hash": "#lens=foreign&city=19&ly=&v=2152,1882,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "foreign",
+    "city": 19,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2152,
+     1882,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-04.harder",
+   "edition": "yeojido",
+   "hash": "#lens=fertility&ly=&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "fertility",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2934,
+     3269,
+     0.119
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-05",
+   "edition": "yeojido",
+   "hash": "#state=12&ly=&v=2165,4262,0.2",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": "12",
+    "item": null,
+    "route": null,
+    "mode": "state",
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2165,
+     4262,
+     0.2
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-05.s1",
+   "edition": "yeojido",
+   "hash": "#state=12&ly=&v=2165,4262,0.2",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": "12",
+    "item": null,
+    "route": null,
+    "mode": "state",
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2165,
+     4262,
+     0.2
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-05.s2",
+   "edition": "yeojido",
+   "hash": "#lens=fiscal&city=25&ly=&v=1861,5692,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "fiscal",
+    "city": 25,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     1861,
+     5692,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "h-05.s3",
+   "edition": "yeojido",
+   "hash": "#city=166&tab=econ&ly=&v=5000,1800,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": 166,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     5000,
+     1800,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "q-01",
+   "edition": "yeojido",
+   "hash": "#lens=over65&ly=&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "over65",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2934,
+     3269,
+     0.119
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "q-02",
+   "edition": "yeojido",
+   "hash": "#ly=trade&hide=export_hub&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [
+     "trade"
+    ],
+    "hide": [
+     "export_hub"
+    ],
+    "cam": [
+     2934,
+     3269,
+     0.119
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "q-03",
+   "edition": "yeojido",
+   "hash": "#lens=gdp_pc&report=1&ly=&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "gdp_pc",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "nation",
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2934,
+     3269,
+     0.119
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "q-04",
+   "edition": "yeojido",
+   "hash": "#city=31&ly=&v=2304,2403,0.26",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": 31,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2304,
+     2403,
+     0.26
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "q-05",
+   "edition": "yeojido",
+   "hash": "#lens=fiscal&ly=&v=2300,4800,0.16",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "fiscal",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2300,
+     4800,
+     0.16
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "q-06",
+   "edition": "yeojido",
+   "hash": "#lens=over65&ly=&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "over65",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2934,
+     3269,
+     0.119
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "q-07",
+   "edition": "yeojido",
+   "hash": "#ly=wonders&hide=knowledge,national_park&city=47&v=4072,3324,0.42",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": 47,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": null,
+    "ly": [
+     "wonders"
+    ],
+    "hide": [
+     "knowledge",
+     "national_park"
+    ],
+    "cam": [
+     4072,
+     3324,
+     0.42
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "q-08",
+   "edition": "yeojido",
+   "hash": "#lens=wage&state=11&ly=&v=2282,1652,0.4",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "wage",
+    "city": null,
+    "state": "11",
+    "item": null,
+    "route": null,
+    "mode": "state",
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2282,
+     1652,
+     0.4
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "q-09",
+   "edition": "yeojido",
+   "hash": "#lens=growth&ly=&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "growth",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2934,
+     3269,
+     0.119
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "p-01",
+   "edition": "yeojido",
+   "hash": "#report=1&ly=&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "nation",
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2934,
+     3269,
+     0.119
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "p-02",
+   "edition": "yeojido",
+   "hash": "#lens=gdp_pc&ly=&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "gdp_pc",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2934,
+     3269,
+     0.119
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "p-03",
+   "edition": "yeojido",
+   "hash": "#city=18&ly=&v=2375,3356,0.26",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": 18,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2375,
+     3356,
+     0.26
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "p-04",
+   "edition": "yeojido",
+   "hash": "#lens=fertility&ly=&v=3250,3150,0.12",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "fertility",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2934,
+     3269,
+     0.119
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "p-05",
+   "edition": "yeojido",
+   "hash": "#lens=doctors&state=11&ly=&v=2282,1652,0.4",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "doctors",
+    "city": null,
+    "state": "11",
+    "item": null,
+    "route": null,
+    "mode": "state",
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     2282,
+     1652,
+     0.4
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "p-06",
+   "edition": "yeojido",
+   "hash": "#lens=density&ly=resources&hide=dam,mine,industrial,industry,fishport,farm&v=3100,2900,0.22",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": "density",
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": null,
+    "tab": null,
+    "ly": [
+     "resources"
+    ],
+    "hide": [
+     "dam",
+     "farm",
+     "fishport",
+     "industrial",
+     "industry",
+     "mine"
+    ],
+    "cam": [
+     3100,
+     2900,
+     0.22
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "p-07",
+   "edition": "yeojido",
+   "hash": "#city=50&ly=&v=4050,3600,0.3",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": 50,
+    "state": null,
+    "item": null,
+    "route": null,
+    "mode": "city",
+    "tab": null,
+    "ly": [],
+    "hide": [],
+    "cam": [
+     4050,
+     3600,
+     0.3
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  },
+  {
+   "id": "p-08",
+   "edition": "yeojido",
+   "hash": "#route=41-44&ly=infra,trade&hide=lines,station,airport&v=3100,2900,0.22",
+   "ok": true,
+   "bad": [],
+   "state": {
+    "lens": null,
+    "city": null,
+    "state": null,
+    "item": null,
+    "route": "41-44",
+    "mode": "route",
+    "tab": null,
+    "ly": [
+     "infra",
+     "trade"
+    ],
+    "hide": [
+     "airport",
+     "lines",
+     "station"
+    ],
+    "cam": [
+     3100,
+     2900,
+     0.22
+    ],
+    "layers": true,
+    "intro": false,
+    "report": null
+   },
+   "console": []
+  }
+ ]
+}

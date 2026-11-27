@@ -1,0 +1,91 @@
+/* 층 조작(오른쪽 여백), 지도표 ↔ 색인도, 풍선말, 칸 띠 */
+
+/* ---------- 층 단추 기둥 ---------- */
+#layers .lcol { display: flex; flex-direction: column; align-items: center; gap: 10px; padding-top: 18px; }
+#layers .lg { display: flex; flex-direction: column; align-items: center; gap: 3px; width: 56px; padding: 4px 0 5px; font: 500 var(--t-2)/1.2 var(--sans); color: var(--ink-2); border: 1px solid transparent; }
+#layers .lg canvas { filter: grayscale(1); opacity: 0.38; transition: opacity var(--d1) var(--ease), filter var(--d1) var(--ease); }
+#layers .lg[aria-pressed="true"] { color: var(--ink); }
+#layers .lg[aria-pressed="true"] canvas { filter: none; opacity: 1; }
+#layers .lg:hover { border-color: var(--hair); }
+#layers .lg[aria-pressed="true"] span:last-child { box-shadow: 0 1px 0 var(--ink); }
+#layers .lg .fr { width: 24px; height: 24px; margin: 3px; border: 1.6px dotted var(--ink); background: rgba(29, 26, 22, 0.1); opacity: 0.4; }
+#layers .lg[aria-pressed="true"] .fr { opacity: 1; }
+#layers .lmore { display: inline-flex; align-items: center; gap: 2px; min-height: 32px; padding: 4px 6px; margin-top: 2px; font: 500 var(--t-2)/1 var(--sans); color: var(--ink-2); border-top: 1px solid var(--hair); }
+#layers .lmore:hover, #layers .lmore[aria-expanded="true"] { color: var(--ink); }
+#layers .lmore[aria-expanded="true"] svg { transform: rotate(180deg); }
+#layers .lfab { display: none; }
+#layers.is-open { z-index: 30; }
+#layers.is-loading .lg canvas { opacity: 0.25; }
+
+.ldrawer { position: absolute; top: 14px; right: calc(100% - 6px); width: 232px; max-height: calc(100vh - var(--m-top) - var(--m-bot) - 28px); overflow: auto; padding: 12px 14px 12px; background: var(--paper-hi); border: 1px solid var(--ink); box-shadow: var(--block); z-index: 20; }
+.ldrawer .lhead { display: flex; align-items: center; justify-content: space-between; margin-bottom: 4px; }
+.ldrawer .lhead b { font: 700 var(--t1)/1.3 var(--serif); }
+.ldrawer .x { width: 32px; height: 32px; display: grid; place-items: center; margin-right: -8px; }
+.ldrawer fieldset { border: 0; border-top: 1px solid var(--hair); margin: 0; padding: 8px 0 6px; min-width: 0; }
+.ldrawer legend { float: left; width: 100%; padding: 0; }
+.ldrawer legend b { font: 600 var(--t0)/1.3 var(--sans); }
+.ldrawer ul { clear: both; padding: 2px 0 0 22px; }
+.ldrawer label { display: flex; align-items: center; gap: 6px; min-height: 28px; cursor: pointer; font: 400 var(--t-1)/1.3 var(--sans); }
+.ldrawer legend label { min-height: 30px; gap: 8px; }
+.ldrawer input { width: 15px; height: 15px; margin: 0; accent-color: var(--ink); flex: none; }
+.ldrawer input:disabled + canvas, .ldrawer input:disabled ~ span { opacity: 0.4; }
+.ldrawer canvas { flex: none; margin: -3px; }
+.ldrawer .ln { flex: none; width: 16px; height: 0; border-top: 2px solid rgba(184, 50, 31, 0.6); }
+.ldrawer .ln-routes { border-top: 3px solid rgba(63, 107, 82, 0.6); }
+.ldrawer .lnote { border-top: 1px solid var(--hair); padding-top: 8px; font: 400 var(--t-2)/1.5 var(--sans); color: var(--ink-3); }
+
+/* ---------- 지도표 ↔ 색인도 ---------- */
+#key { width: 150px; min-height: 152px; pointer-events: none; }
+#key .kkey, #key .kloc { position: absolute; right: 0; bottom: 0; background: var(--paper-hi); border: 1px solid var(--ink); outline: 1px solid var(--hair); outline-offset: 2px; transition: opacity var(--d2) var(--ease), visibility var(--d2); pointer-events: auto; }
+#key .kkey { width: 150px; padding: 9px 12px 8px; }
+#key .kt { display: block; text-align: center; font: 700 var(--t-1)/1.2 var(--serif); letter-spacing: 0.5em; margin-right: -0.5em; padding-bottom: 6px; border-bottom: 1px solid var(--hair); margin-bottom: 5px; }
+#key li { display: flex; align-items: center; gap: 8px; min-height: 19px; font: 400 var(--t-2)/1.3 var(--sans); white-space: nowrap; }
+#key li small { font-size: 10px; color: var(--ink-3); }
+#key .klayers { border-top: 1px solid var(--hair); margin-top: 5px; padding-top: 4px; }
+#key .klayers:empty { display: none; }
+#key .klayers canvas { margin: -3px -1px -3px -3px; flex: none; }
+#key .sym { flex: none; width: 18px; height: 10px; display: block; position: relative; }
+#key .sym.cap::before { content: ""; position: absolute; left: 4px; top: 0; width: 9px; height: 9px; border-radius: 50%; border: 1.6px solid var(--ju); background: radial-gradient(var(--ju) 0 1.8px, var(--baek) 2px); box-sizing: border-box; }
+#key .sym.seat::before { content: ""; position: absolute; left: 6px; top: 2px; width: 6px; height: 6px; background: var(--ink); }
+#key .sym.town::before { content: ""; position: absolute; left: 6px; top: 2px; width: 6px; height: 6px; border-radius: 50%; border: 1.2px solid var(--ink); background: var(--baek); box-sizing: border-box; }
+#key .sym.ridge::before { content: ""; position: absolute; left: 0; right: 0; top: 3px; height: 3px; background: var(--ink); clip-path: polygon(0 40%, 30% 0, 55% 10%, 100% 45%, 100% 60%, 55% 100%, 30% 90%, 0 62%); }
+#key .sym.river::before { content: ""; position: absolute; left: 0; right: 0; top: 4px; border-top: 1.6px solid var(--jjok); }
+#key .sym.sido::before { content: ""; position: absolute; left: 0; right: 0; top: 4px; border-top: 1px dashed rgba(29, 26, 22, 0.6); }
+#key .sym.dmz::before { content: ""; position: absolute; left: 0; right: 0; top: 4px; border-top: 2px dashed var(--ju); }
+#key .sym.front { width: 12px; height: 10px; margin: 0 3px 0 1px; border: 1.4px dotted var(--ink); background: rgba(29, 26, 22, 0.1); }
+#key .kloc { width: 118px; height: 142px; cursor: crosshair; touch-action: none; overflow: hidden; }
+#key .kloc canvas { display: block; width: 116px; height: 140px; }
+#key .kloc .view { position: absolute; left: 0; top: 0; border: 1.5px solid var(--ju); background: rgba(184, 50, 31, 0.1); pointer-events: none; will-change: transform; }
+#key[data-mode="key"] .kloc, #key[data-mode="loc"] .kkey, #key:not([data-mode]) .kloc { opacity: 0; visibility: hidden; pointer-events: none; }
+
+/* ---------- 풍선말 · 칸 띠 ---------- */
+#tip .t { margin-bottom: 2px; }
+#tip .t b { font: 700 var(--t0)/1.3 var(--serif); }
+#tip .dim { color: var(--ink-2); }
+#tip .hint { margin-top: 3px; color: var(--ink-3); font-size: var(--t-2); }
+#tip .lensv { margin-top: 4px; padding-top: 4px; border-top: 1px solid var(--hair); }
+#tip .lensv b { font: 700 var(--t0)/1.2 var(--serif); }
+#tip .unitnote { color: var(--ju-deep); }
+#cellstrip { display: flex; align-items: center; gap: 6px; height: 48px; padding: 0 2px 0 12px; background: var(--paper-hi); border: 1px solid var(--ink); box-shadow: var(--block); }
+#cellstrip .info { flex: 1 1 auto; min-width: 0; display: flex; flex-direction: column; justify-content: center; line-height: 1.25; }
+#cellstrip .info b { font: 700 var(--t0)/1.25 var(--serif); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+#cellstrip .info span { font: 400 var(--t-2)/1.3 var(--sans); color: var(--ink-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+#cellstrip .info em { font-style: normal; font-weight: 600; color: var(--ink); }
+#cellstrip .btn { flex: none; min-height: 36px; padding: 4px 9px; }
+#cellstrip .x { flex: none; width: 40px; height: 44px; display: grid; place-items: center; }
+
+/* ---------- 좁은 화면 ---------- */
+@media (max-width: 1023px) {
+  #layers .lg { width: 50px; font-size: 10px; }
+}
+@media (max-width: 700px) {
+  #layers .lcol { display: none; }
+  #layers .lfab { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 50%; background: var(--paper-hi); border: 1px solid var(--ink); position: relative; }
+  #layers .lfab::after { content: attr(data-n); position: absolute; right: -3px; top: -3px; min-width: 17px; height: 17px; border-radius: 9px; background: var(--ink); color: var(--baek); font: 600 10px/17px var(--sans); text-align: center; }
+  .ldrawer { position: fixed; left: 0; right: 0; top: auto; bottom: 0; width: auto; max-height: 72vh; padding: 12px 18px calc(16px + env(safe-area-inset-bottom)); border-width: 1px 0 0; box-shadow: none; z-index: 40; }
+  .ldrawer label { min-height: 40px; font-size: var(--t0); }
+  .ldrawer legend label { min-height: 44px; }
+  .ldrawer ul { display: grid; grid-template-columns: 1fr 1fr; }
+  .ldrawer input { width: 18px; height: 18px; }
+  .ldrawer .x { width: 44px; height: 44px; }
+}

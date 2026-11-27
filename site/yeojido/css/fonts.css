@@ -1,0 +1,73 @@
+/* 신여지도 글꼴 — 모두 자체 호스팅, SIL OFL 1.1. 목록·출처는 ../fonts/fonts.json, ../fonts/README.md
+   tools/yeojido/build_fonts.py 가 파일을 만든다. */
+
+/* 제목 · 고을 이름 · 큰 숫자: Hahmlet (가변 100–900) */
+@font-face {
+  font-family: "Hahmlet";
+  src: url("../fonts/Hahmlet-VF.subset.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 본문 · 표 · 단추: Pretendard Variable 의 수정본(글자 줄임). 원본에 예약 글꼴 이름이 있어
+   글꼴 안 이름도, 여기 이름도 'Yeojido Sans' 다. 'Pretendard' 라는 이름으로 부르지 않는다. */
+@font-face {
+  font-family: "Yeojido Sans";
+  src: url("../fonts/YeojidoSans-VF.subset.woff2") format("woff2");
+  font-weight: 45 930;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 자료 속 한자(문화유산 이름 등): Noto Serif KR 에서 쓰는 글자만. 한자에만 걸린다 */
+@font-face {
+  font-family: "Yeojido Hanja";
+  src: url("../fonts/NotoSerifKR-VF.hanja.woff2") format("woff2");
+  font-weight: 200 900;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+3400-4DBF, U+4E00-9FFF, U+F900-FAFF;
+}
+
+:root {
+  --serif: "Hahmlet", "Yeojido Hanja", "Yeojido Sans", "Noto Serif KR", "Apple SD Gothic Neo", "Malgun Gothic", serif;
+  --sans: "Yeojido Sans", "Yeojido Hanja", "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", system-ui, sans-serif;
+  /* 제호 곁글 한자 新輿地圖 — 바꿔 끼우는 한 장. 세로로 긴 SVG(마스크로 쓴다: 빛깔·짙기는 CSS 가 정한다).
+     바꾸는 법은 ../fonts/README.md '한자 제호 바꾸기' */
+  --title-hanja: url("../fonts/title-hanja.svg");
+  --title-hanja-ratio: 974 / 3652; /* 가로 / 세로. 그림을 바꾸면 이 값도 그 그림의 viewBox 로 */
+  /* 낙관 */
+  --seal: url("../fonts/seal.svg");
+  --seal-mask: url("../fonts/seal-mask.svg");
+}
+
+/* 주의: 사용자 정의 속성 안의 상대 url() 은 "var() 를 쓰는 곳"의 스타일시트 기준으로 풀린다.
+   그래서 --title-hanja / --seal 은 css/ 폴더 안의 스타일시트에서만 var() 로 쓴다
+   (index.html 의 style 속성이나 <style> 에서 쓰면 경로가 어긋난다). 다른 곳에서는 아래 클래스를 쓴다. */
+
+/* 제호 곁글 한자. 크기는 height(또는 width) 하나만 주면 된다. 빛깔 = background, 짙기 = opacity */
+.title-hanja {
+  display: block;
+  aspect-ratio: var(--title-hanja-ratio);
+  background: currentColor;
+  -webkit-mask: var(--title-hanja) center / contain no-repeat;
+  mask: var(--title-hanja) center / contain no-repeat;
+  opacity: 0.22;
+}
+
+/* 낙관 (인주색 그대로) */
+.seal {
+  display: block;
+  aspect-ratio: 1;
+  background: var(--seal) center / contain no-repeat;
+}
+
+/* 낙관을 다른 빛깔로 찍을 때 (background 로 빛깔을 준다) */
+.seal-ink {
+  display: block;
+  aspect-ratio: 1;
+  background: currentColor;
+  -webkit-mask: var(--seal-mask) center / contain no-repeat;
+  mask: var(--seal-mask) center / contain no-repeat;
+}

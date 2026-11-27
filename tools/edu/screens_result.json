@@ -1,0 +1,147 @@
+{
+ "profile": "public",
+ "info_1280": {
+  "lessons": 18,
+  "quick": 9,
+  "projects": 8,
+  "stds": 26,
+  "glossary": 19,
+  "opens": 194,
+  "absent": 0,
+  "overflow": 0,
+  "font": "Hahmlet, \"Noto Serif KR\", AppleMyungjo, Batang, serif",
+  "loaded": [
+   "Hahmlet",
+   "Yeojido Sans"
+  ],
+  "h1": "교육의 활용",
+  "caveat0": "이 쪽과 지도는 개인이 비상업 목적으로 만든 공개 자료입니다. 교육부·시도교육청·국가교육과정정보센터·교과서 "
+ },
+ "overflow_after_1280": 0,
+ "console_1280": [],
+ "filter_h": [
+  "h-01",
+  "h-02",
+  "h-03",
+  "h-04",
+  "h-05"
+ ],
+ "filter_count": "수업안 18개 가운데 5개",
+ "filter_h_data": [
+  "h-01",
+  "h-02",
+  "h-05"
+ ],
+ "anchor_unfilters": true,
+ "keyboard_open": true,
+ "focus_outline": "solid",
+ "e56_01_classic_disabled": 4,
+ "tab_order": [
+  "신여지도新輿地圖에서 열기",
+  "이 수업안 인쇄",
+  "#e56-01",
+  "신여지도新輿地圖에서 열기",
+  "신여지도新輿地圖에서 열기",
+  "신여지도新輿地圖에서 열기",
+  "지금 자료의 값 읽기",
+  "동쪽 끝의 작은 섬 — 울릉도와 "
+ ],
+ "facts_h02": [
+  "서울 의사 수 2.3 ~ 21.3 명/천명 (구·군별 범위)",
+  "서울 재정자립도 14.1 ~ 54.1% (구·군별 범위)",
+  "영양군 의사 수 1.1 명/천명",
+  "영양군 재정자립도 6.3%",
+  "성남시 의사 수 5.1 명/천명",
+  "성남시 재정자립도 53.0%",
+  "부산 의사 수 1.3 ~ 13.2 명/천명 (구·군별 범위)",
+  "의사 수 렌즈: 어디서 센 값 의료기관 소재지 (분모는 같은 지역 주민등록인구)"
+ ],
+ "facts_note": "읽은 때 2026. 11. 27. 오전 10:18:12 · 공개판 자료. 자료가 새로 빌드되면 달라집니다. 수업 전에 지도에서도 한 번 확인하십시오.",
+ "facts_e5604": [
+  "제주시 재정자립도(값이 없어야 함) 자료 없음",
+  "재정자립도 렌즈의 기준 시점 2026",
+  "인구밀도 렌즈의 기준 시점 2026-09",
+  "종교 인구 렌즈의 기준 시점 2015"
+ ],
+ "console_after_facts": [],
+ "print_e34-02": {
+  "sheets": 2,
+  "visibleMain": "block",
+  "lines": 12
+ },
+ "print_pdf_bytes_e34-02": 521090,
+ "print_pages_e34-02": 2,
+ "print_cleanup_e34-02": true,
+ "print_h-02": {
+  "sheets": 2,
+  "visibleMain": "block",
+  "lines": 15
+ },
+ "print_pdf_bytes_h-02": 541272,
+ "print_pages_h-02": 2,
+ "print_cleanup_h-02": true,
+ "info_390": {
+  "lessons": 18,
+  "quick": 9,
+  "projects": 8,
+  "stds": 26,
+  "glossary": 19,
+  "opens": 194,
+  "absent": 0,
+  "overflow": 0,
+  "font": "Hahmlet, \"Noto Serif KR\", AppleMyungjo, Batang, serif",
+  "loaded": [
+   "Hahmlet",
+   "Yeojido Sans"
+  ],
+  "h1": "교육의 활용",
+  "caveat0": "이 쪽과 지도는 개인이 비상업 목적으로 만든 공개 자료입니다. 교육부·시도교육청·국가교육과정정보센터·교과서 "
+ },
+ "overflow_after_390": 0,
+ "console_390": [],
+ "fail_message": "내용(content.json)을 불러오지 못했습니다. 새로 고치거나 잠시 뒤에 다시 열어 주십시오. 내용 원본을 직접 열기. 이 쪽은 개인이 만든 비공식 자료이며 교육부·교육청·교과서 발행사와 관계가 없습니다.",
+ "fail_errors": [],
+ "broken_json_errors": [],
+ "absent_sim": {
+  "absent": 30,
+  "live": 0,
+  "h02": [
+   "koreaciv 이 판에 없는 렌즈",
+   "신여지도 이 판에 없는 렌즈",
+   "이 수업안 인쇄"
+  ]
+ },
+ "absent_sim_facts": [
+  "서울 의사 수 이 자료에서 읽지 못함",
+  "서울 재정자립도 14.1 ~ 54.1% (구·군별 범위)",
+  "영양군 의사 수 이 자료에서 읽지 못함"
+ ],
+ "absent_sim_errors": [],
+ "no_lens_list": {
+  "links": 194,
+  "lessons": 18
+ },
+ "back_links": [
+  "../",
+  "../yeojido/",
+  "../sources/",
+  "../",
+  "../yeojido/",
+  "../sources/",
+  "content.json"
+ ],
+ "back_status": {
+  "../": 200,
+  "../yeojido/": 200,
+  "../sources/": 200,
+  "content.json": 200
+ },
+ "open_classic": {
+  "url": "/#v=2900%2C3600%2C0.1600&lens=gdp_pc&city=42&tab=econ&ly=",
+  "errors": []
+ },
+ "open_yeojido": {
+  "url": "/yeojido/#v=2900,3600,0.1600&lens=gdp_pc&city=42&ly=",
+  "errors": []
+ }
+}
